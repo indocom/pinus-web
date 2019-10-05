@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style>
+    .ablue{
+      background-color: #1F2E6E;
+    }
+    .ayellow{
+      background-color: #EFB61E;
+    }
+    header{
+      background : url(./assets/bg.jpg); 
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container" >
+          <a id="logo-container" href="#" class="brand-logo"><img src="./assets/logo.png" alt="PINUS Logo" style='height: 50px; margin-top: 5px;'></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#initiatives">Initiatives</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+    
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#initiatives">Initiatives</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+  </header>
+  
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <div class="row center">
+          <h1 class="header center teal-text text-lighten-2">Perhimpunan Indonesia NUS</h1>
+        </div>
+        <div class="row center">
+          <a href="http://pinus-web.herokuapp.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="section">
+    <div class="container scrollspy" id='initiatives'>
+      <h2 class="center">Our Initiatives</h2>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class=' col s12 m12 l4'>
+          <div class="card ayellow">
+            <div class="card-image">
+              <img src="background1.jpg" alt="" style='height: 25vh;'>
+            </div>
+            <div class="card-content">
+              <span class="card-title">VisitNUS</span>
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+            <div class="card-action">
+              <a href="" class='white-text'>More details</a>
+              <a href="" class='white-text'>Book your place</a>
+            </div>
+          </div>
+        </div>
+        <div class=' col s12 m12 l4'>
+          <div class="card ayellow sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="background2.jpg" class ='activator' alt="" style='height: 25vh;'>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">NUANSA</span>
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">NUANSA</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti iusto sapiente voluptate impedit quos est unde molestiae doloribus tenetur itaque, mollitia aspernatur quibusdam dolores aut, placeat commodi cum quaerat.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, mollitia aut! Ratione blanditiis similique dolorem porro maxime obcaecati, esse tempore minus necessitatibus facilis soluta cumque, nulla laborum laboriosam ut minima!</p>
+            </div>
+            <div class="card-action">
+              <a href="" class='white-text'>Grab your ticket</a>
+            </div>
+          </div>
+        </div>
+        <div class=' col s12 m12 l4'>
+          <div class="card ayellow">
+            <div class="card-image">
+              <img src="background3.jpg" alt="" style='height: 25vh;'>
+            </div>
+            <div class="card-content">
+              <span class="card-title">MKP</span>
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+            <div class="card-action">
+              <a href="" class='white-text'>More details</a>
+              <a href="" class='white-text'>Support us!</a>
+            </div>
+          </div>
+        </div>
+          
+        <!-- <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img src="background1.jpg" alt="" class='responsive-img'></h2>
+              <h5 class="center">NUANSA</h5>
+
+              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+
+              <button class="btn waves-effect waves-light">Click here to know more</button>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text">mkp logo</h2>
+              <h5 class="center">Misi Kami Peduli</h5>
+
+              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            </div>
+          </div> -->  
+        </div>
+    </div>
+  </div>
+
+  <!-- parallax -->
+	<div class="parallax-container">
+    <div class="parallax"><img src="./background1.jpg" class='responsive-img' alt=""></div>
+  </div>
+  
+  <div class="section" style='background: url(./assets/bg.png);background-size: cover; background-position: center;'>
+    <div class="row container">
+      <div class="col s6 l5 offset-l1">
+        <h4>Our Vision</h4>
+        <ol>
+          <li>To be an organisation from, by, and for Indonesian students in NUS as well as to our nation.
+          </li>
+          <li>To create a kinship and mutual cooperation within the Indonesian students in NUS.</li> 
+          <li>To grow a leadership, proactive and responsible spirit within our members, and to maximize their potential in all field, so as to be able to give back to our nation in the future.</li>
+        </ol>
+      </div>
+      <div class="col s6 l5">
+        <h4>Our Mission</h4>
+        <ol>
+          <li>To be a channel through which Indonesian students in NUS can create everlasting friendship and strengthen ties with each other.</li>
+          <li>To be a student network center to assist our members in adapting to the NUS and Singapore environments.</li> 
+          <li>
+            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+          </li>
+          <li>
+            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+          </li>
+          <li>
+            To carry out social, cultural and educational activities tailored for Indonesian students and/or non-Indonesians without political, racial, ethnic and religious associations.
+          </li>
+          <li>
+            To be an ambassador and representation of Indonesian students in NUS.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="container section scrollspy" id="team">
+      <div class="row">
+        <h3 class="indigo-text text-darken-4">Meet Our Team</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+      </div>
+      <div class="row">
+        <ul class="tabs">
+          <li class="tab col s3">
+            <a href="#welfare" class="indigo-text text-darken-4">Welfare</a>
+          </li>
+          <li class="tab col s4">
+            <a href="#pna" class="indigo-text text-darken-4">Public and Alumni Relations</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#it" class="indigo-text text-darken-4">IT Development</a>
+          </li>
+          <li class="tab col s2">
+            <a href="#popi" class="indigo-text text-darken-4">POPI</a>
+          </li>
+        </ul>
+
+        <div class="col s12" id='welfare'>
+          <p class="flow-text indigo-text text-darken-4">Welfare</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        </div>
+
+        <div class="col s12" id='pna'>
+          <p class="flow-text indigo-text text-darken-4">Public and Alumni Relations</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        </div>
+        <div class="col s12" id='it'>
+          <p class="flow-text indigo-text text-darken-4">IT Development</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        </div>
+
+        <div class="col s12" id='popi'>
+          <p class="flow-text indigo-text text-darken-4">POPI</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        </div>
+      </div>
+    </section>
+
+	<!-- contact form -->
+	<section class="section container scrollspy" id="contact">
+		<div class="row">
+			<div class="col s12 l5">
+					<h2 class="indigo-text text-darken-4">Get in Touch</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+			</div>
+			<div class="col s12 l5 offset-l2">
+				<form action="">
+					<div class="input-field">
+						<i class="material-icons prefix">email</i>
+						<input type="email" id='email'>
+						<label for="email">Your email</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">message</i>
+						<input type="text" class="materialize-textarea" id="message">
+						<label for="message">Your message</label>
+					</div>
+					<div class="input-field">
+						<p>Questions about</p>
+						<p>
+							<label>
+								<input type="checkbox">
+								<span>NUANSA</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input type="checkbox">
+								<span>Visitus</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input type="checkbox">
+								<span>MKP</span>
+							</label>
+						</p>
+					</div>
+					<div class="input-field center">
+						<button class='btn'>Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer ablue">
+    <div class="container">
+      <div class="row">
+        <div class="col l9 s12">
+          <h5 class="white-text">About PINUS</h5>
+          <p class="grey-text text-lighten-4">PINUS (Perhimpunan Indonesia NUS or NUS Indonesian Community) is a group of Indonesian Students in National University of Singapore (NUS) established in 1998. Starting as a humble group of Indonesians created to facilitate simple gatherings, PINUS has now grown into one of the most established Indonesian student groups in Singapore. Currently, we have more than five hundred members, and the number is still growing steadily every year.</p>
+
+
+        </div>
+        <div class="col l3 s6">
+          <h5 class="white-text">Connect with Us!</h5>
+          <ul class='row'>
+              <li class='col s3'><a href="https://www.facebook.com/PerhimpunanIndonesiaNUS/"><img alt="Facebook Icon" src="./assets/iconfb.png" class = 'responsive-img'/></a></li>
+              <li class='col s3 '><a href="https://www.instagram.com/pinusonline/"><img alt="Instagram Icon" src="./assets/iconig.png" class = 'responsive-img'/></a></li>
+              <li class='col s3'><a href="https://www.youtube.com/channel/UCfYU_ttUpJWNEKIbiWoQQHQ"><img alt="Youtube Icon" src="./assets/iconyt.png" class = 'responsive-img'/></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      Copyright &copy; PINUS 2019. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
