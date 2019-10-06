@@ -17,10 +17,8 @@
     .ayellow{
       background-color: #EFB61E;
     }
-    header{
-      background : url(./assets/bg.jpg); 
-      background-size: cover;
-      background-position: center;
+    .card-active{
+
     }
   </style>
 </head>
@@ -31,14 +29,12 @@
           <a id="logo-container" href="#" class="brand-logo"><img src="./assets/logo.png" alt="PINUS Logo" style='height: 50px; margin-top: 5px;'></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#initiatives">Initiatives</a></li>
-            <li><a href="#">Events</a></li>
             <li><a href="#team">Our Team</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
     
           <ul id="nav-mobile" class="sidenav">
             <li><a href="#initiatives">Initiatives</a></li>
-            <li><a href="#">Events</a></li>
             <li><a href="#team">Our Team</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
@@ -51,14 +47,12 @@
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
         <div class="row center">
           <h1 class="header center teal-text text-lighten-2">Perhimpunan Indonesia NUS</h1>
         </div>
         <div class="row center">
           <a href="http://pinus-web.herokuapp.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div>
-        <br><br>
 
       </div>
     </div>
@@ -71,7 +65,7 @@
       <h2 class="center">Our Initiatives</h2>
       <!--   Icon Section   -->
       <div class="row">
-        <div class=' col s12 m12 l4'>
+        <div class=' col s10 offset-s1 l4'>
           <div class="card ayellow">
             <div class="card-image">
               <img src="background1.jpg" alt="" style='height: 25vh;'>
@@ -80,13 +74,9 @@
               <span class="card-title">VisitNUS</span>
               <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
             </div>
-            <div class="card-action">
-              <a href="" class='white-text'>More details</a>
-              <a href="" class='white-text'>Book your place</a>
-            </div>
           </div>
         </div>
-        <div class=' col s12 m12 l4'>
+        <div class=' col s10 offset-s1 l4'>
           <div class="card ayellow sticky-action">
             <div class="card-image waves-effect waves-block waves-light">
               <img src="background2.jpg" class ='activator' alt="" style='height: 25vh;'>
@@ -105,10 +95,10 @@
             </div>
           </div>
         </div>
-        <div class=' col s12 m12 l4'>
+        <div class=' col s10 offset-s1 l4'>
           <div class="card ayellow">
             <div class="card-image">
-              <img src="background3.jpg" alt="" style='height: 25vh;'>
+              <img src="background3.jpg" alt="" style='height: 25%;'>
             </div>
             <div class="card-content">
               <span class="card-title">MKP</span>
@@ -148,47 +138,62 @@
 	<div class="parallax-container">
     <div class="parallax"><img src="./background1.jpg" class='responsive-img' alt=""></div>
   </div>
-  
-  <div class="section" style='background: url(./assets/bg.png);background-size: cover; background-position: center;'>
-    <div class="row container">
-      <div class="col s6 l5 offset-l1">
-        <h4>Our Vision</h4>
-        <ol>
-          <li>To be an organisation from, by, and for Indonesian students in NUS as well as to our nation.
-          </li>
-          <li>To create a kinship and mutual cooperation within the Indonesian students in NUS.</li> 
-          <li>To grow a leadership, proactive and responsible spirit within our members, and to maximize their potential in all field, so as to be able to give back to our nation in the future.</li>
-        </ol>
-      </div>
-      <div class="col s6 l5">
-        <h4>Our Mission</h4>
-        <ol>
-          <li>To be a channel through which Indonesian students in NUS can create everlasting friendship and strengthen ties with each other.</li>
-          <li>To be a student network center to assist our members in adapting to the NUS and Singapore environments.</li> 
-          <li>
-            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
-          </li>
-          <li>
-            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
-          </li>
-          <li>
-            To carry out social, cultural and educational activities tailored for Indonesian students and/or non-Indonesians without political, racial, ethnic and religious associations.
-          </li>
-          <li>
-            To be an ambassador and representation of Indonesian students in NUS.
-          </li>
-        </ol>
-      </div>
-    </div>
-
-  </div>
 
   <section class="container section scrollspy" id="team">
       <div class="row">
         <h3 class="indigo-text text-darken-4">Meet Our Team</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        <h4 class='center'>Top Four</h4><br>
+        <div class="row">
+          <div class="col s6 l3">
+            <div class="card ayellow">
+              <div class="card-image">
+                <img src="background3.jpg" alt="" style='height: 25vh'>
+              </div>
+              <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <span class="card-title">Noel Seenak</span>
+                <p>Forehead</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 l3">
+            <div class="card ayellow">
+              <div class="card-image">
+                <img src="background3.jpg" alt="" style='height: 25vh'>
+              </div>
+              <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <span class="card-title">Hokiewan Cantik</span>
+                <p>Job Title</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 l3">
+            <div class="card ayellow">
+              <div class="card-image">
+                <img src="background3.jpg" alt="" style='height: 25vh'>
+              </div>
+              <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <span class="card-title">Jeff Ganteng</span>
+                <p>Job Title</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 l3">
+            <div class="card ayellow">
+              <div class="card-image">
+                <img src="background3.jpg" alt="" style='height: 25vh'>
+              </div>
+              <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <span class="card-title">Boss Steven</span>
+                <p>Job Title</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <h4 class="center">The Teams</h4><br>
       <div class="row">
         <ul class="tabs">
           <li class="tab col s3">
@@ -209,29 +214,260 @@
           <p class="flow-text indigo-text text-darken-4">Welfare</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <div class="row">
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Noel Seenak</span>
+                  <p>Forehead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Hokiewan Cantik</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Jeff Ganteng</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Boss Steven</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col s12" id='pna'>
           <p class="flow-text indigo-text text-darken-4">Public and Alumni Relations</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <div class="row">
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Noel Seenak</span>
+                  <p>Forehead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Hokiewan Cantik</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Jeff Ganteng</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Boss Steven</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div class="col s12" id='it'>
           <p class="flow-text indigo-text text-darken-4">IT Development</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <div class="row">
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Noel Seenak</span>
+                  <p>Forehead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Hokiewan Cantik</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Jeff Ganteng</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Boss Steven</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="col s12" id='popi'>
           <p class="flow-text indigo-text text-darken-4">POPI</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <div class="row">
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Noel Seenak</span>
+                  <p>Forehead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Hokiewan Cantik</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Jeff Ganteng</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+            <div class="col s6 l3">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style='height: 25vh'>
+                </div>
+                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                  <span class="card-title">Boss Steven</span>
+                  <p>Job Title</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+  
+  <div class="section grey lighten-3" >
+    <div class="row container">
+      <div class="col s6 l5" style='padding-left: 0vw; padding-right: 2vw'>
+        <h4>Our Vision</h4>
+        <ol>
+          <li>To be an organisation from, by, and for Indonesian students in NUS as well as to our nation.
+          </li>
+          <li>To create a kinship and mutual cooperation within the Indonesian students in NUS.</li> 
+          <li>To grow a leadership, proactive and responsible spirit within our members, and to maximize their potential in all field, so as to be able to give back to our nation in the future.</li>
+        </ol>
+      </div>
+      <div class="col s6 l6" style='border-left-style: solid; border-left-color: lightcoral; padding-left: 2vw; padding-right: 0vw'>
+        <h4>Our Mission</h4>
+        <ol>
+          <li>To be a channel through which Indonesian students in NUS can create everlasting friendship and strengthen ties with each other.</li>
+          <li>To be a student network center to assist our members in adapting to the NUS and Singapore environments.</li> 
+          <li>
+            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+          </li>
+          <li>
+            To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+          </li>
+          <li>
+            To carry out social, cultural and educational activities tailored for Indonesian students and/or non-Indonesians without political, racial, ethnic and religious associations.
+          </li>
+          <li>
+            To be an ambassador and representation of Indonesian students in NUS.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
 
 	<!-- contact form -->
-	<section class="section container scrollspy" id="contact">
+	<section class="section container" id="contact">
 		<div class="row">
 			<div class="col s12 l5">
 					<h2 class="indigo-text text-darken-4">Get in Touch</h2>
@@ -278,18 +514,6 @@
 			</div>
 		</div>
 	</section>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
 
   <footer class="page-footer ablue">
     <div class="container">
