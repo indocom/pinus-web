@@ -86,19 +86,22 @@ footer.page-footer {
   display: flex;
   align-items: center;
   text-align: center;
+  background: url(../background2.jpg) no-repeat 50% 50%;
+  background-size: cover;
   top: 0;
 }
 
+/*
 #landing:after{
   content : '';
-  background: url(../background2.jpg) no-repeat 50% 50%;
-  background-size: cover;
+  
   z-index: -1;
   position: absolute;
   opacity: 1;
   width: 100%;  
   height: 100%;
-}
+} 
+*/
 
 #landing:before{
   content: '';
@@ -136,12 +139,22 @@ footer.page-footer {
   border: 2px solid #EFB61E;
 }
 
+#landing a i{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: white;
+  bottom: 60px;
+  left: calc(50% - 27px);
+  font-size: 650%;
+}
+
 @media (max-width: 768px){
   #landing .inner h1{
-    font-size: 350%;
+    font-size: 400%;
   }
   #landing .inner .button{
-    font-size: 150%;
+    font-size: 175%;
     padding: 7px 15px;
   }
 }
@@ -149,7 +162,7 @@ footer.page-footer {
 
 /* Meet our team section */
 .card-image img{
-  min-height: 225px;
+  min-height: 200px;
 }
 
 .card:hover{
@@ -214,13 +227,13 @@ footer.page-footer {
   text-transform: uppercase;
   text-align: right;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .team .details h3 span{
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 1.1rem;
   color: #EFB61E;
   font-weight: 900;
   position: relative;
@@ -244,5 +257,4 @@ footer.page-footer {
   transform: rotateY(360deg);
   color: #EFB61E;
 }
-
 
