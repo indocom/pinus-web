@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #1F2E6E;
 }
 
 .parallax-container {
@@ -37,10 +37,16 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #landing {
+    top: 10%;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
+    top: 0;
+  }
+  #landing {
     top: 0;
   }
 }
@@ -63,6 +69,75 @@ footer.page-footer {
   background-color: #EFB61E;
 }
 
+.ayellow-text{
+  color: #EFB61E;
+}
+
+.ablue-text{
+  color: #1F2E6E;
+}
+/* landing section */
+
+#landing{
+  position: relative;
+  width: 100%;  
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  top: 0;
+}
+
+#landing:after{
+  content : '';
+  background: url(../stars.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.8;
+  width: 100%;  
+  height: 100%;
+}
+
+
+#landing .inner {
+  padding-bottom: 56px;
+}
+
+#landing .inner h1{
+  font-size: 550%;
+  color: white;
+  text-shadow: 3px 3px #EFB61E;
+}
+
+#landing .inner .button{
+  font-size: 175%;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding : 10px 20px;
+  margin-top: 20px;;
+  border-radius: 5px;
+}
+
+#landing .inner .button:hover{
+  background-color: #EFB61E;
+  border: 2px solid #EFB61E;
+}
+
+@media (max-width: 768px){
+  #landing .inner h1{
+    font-size: 350%;
+  }
+  #landing .inner .button{
+    font-size: 150%;
+    padding: 7px 15px;
+  }
+}
+
+
+/* Meet our team section */
 .card-image img{
   min-height: 225px;
 }
@@ -73,7 +148,7 @@ footer.page-footer {
 }
 
 .team{
-  margin: 0 10px;
+  margin: 0 10px 20px;
   position: relative;
   width: 100%;
   min-height: 250px;
@@ -85,7 +160,7 @@ footer.page-footer {
 
 .team img{
   width: 100%;
-  transition: 2s;
+  transition: 1s;
 }
 .team:hover img{
   transform: scale(1.2);
@@ -96,7 +171,7 @@ footer.page-footer {
   left: 0px;
   padding: 0 10px 10px;
   box-sizing: border-box;
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.7);
   width: 100%;
   transition: .7s;
 }
@@ -141,4 +216,5 @@ footer.page-footer {
   transform: rotateY(360deg);
   color: #EFB61E;
 }
+
 
