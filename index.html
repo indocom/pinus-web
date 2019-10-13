@@ -12,6 +12,8 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
+
+  <!--Navbar and Landing Page-->
   <header>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container" >
@@ -35,11 +37,61 @@
         <div class="inner container">
           <h1 class=''>Perhimpunan Indonesia NUS</h1>
           <a href="http://pinus-web.herokuapp.com" class="button waves-effect waves-light">Visit Us</a>
-          <a href="#initiatives"><i class="fa fa-angle-down"></i></a>
+          <a href="#initiatives" class='scrollspy'><i class="fa fa-angle-down"></i></a>
         </div>     
       </div>
   </header>
   
+  <!-- About Us -->
+  <div class="section" id='aboutus'>
+    <div class="container">
+      <div class="row">
+          <h4 class='center'>About PINUS</h4>
+          <div style='text-align: justify; padding-top: 2px;'>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus optio eum laborum voluptas voluptates minima tempora reprehenderit asdf. Vel ea harum tempore recusandae nesciunt consectetur repudiandae! Tenetur, ex qui.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus optio eum laborum voluptas voluptates minima tempora reprehenderit praesentium. Vel ea harum tempore recusandae nesciunt consectetur repudiandae! Tenetur, ex qui.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatibus optio eum laborum voluptas voluptates minima tempora reprehenderit praesentium. Vel ea harum tempore recusandae nesciunt consectetur repudiandae! Tenetur, ex qui.</p>
+          </div>
+          
+      </div>
+      <div class="row">
+        <div class="col l2" >
+          <h4 class='center' id='vision' style='color:#1F2E6E'>VISION</h4>
+        </div>
+        <div class="col l10 content">
+          <ol>
+            <li>To be an organisation from, by, and for Indonesian students in NUS as well as to our nation.</li>
+            <li>To create a kinship and mutual cooperation within the Indonesian students in NUS.</li> 
+            <li>To grow a leadership, proactive and responsible spirit within our members, and to maximize their potential in all field, so as to be able to give back to our nation in the future.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row" id='mission' >
+        <div class="col l2">
+          <h4 class='center' style='color:#1F2E6E'>MISSION</h4>
+        </div>
+        <div class="col l10 content">
+          <ol>
+            <li>To be a channel through which Indonesian students in NUS can create everlasting friendship and strengthen ties with each other.</li>
+            <li>To be a student network center to assist our members in adapting to the NUS and Singapore environments.</li> 
+            <li>
+              To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+            </li>
+            <li>
+              To be a channel through which Indonesian students in NUS develop their talents and cultivate leadership spirit.
+            </li>
+            <li>
+              To carry out social, cultural and educational activities tailored for Indonesian students and/or non-Indonesians without political, racial, ethnic and religious associations.
+            </li>
+            <li>
+              To be an ambassador and representation of Indonesian students in NUS.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <div class="section">
     <div class="container scrollspy" id='initiatives'>
@@ -67,7 +119,7 @@
               <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">NUANSA</span>
+              <span class="card-title grey-text text-darken-4">MKP</span>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti iusto sapiente voluptate impedit quos est unde molestiae doloribus tenetur itaque, mollitia aspernatur quibusdam dolores aut, placeat commodi cum quaerat.</p>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, mollitia aut! Ratione blanditiis similique dolorem porro maxime obcaecati, esse tempore minus necessitatibus facilis soluta cumque, nulla laborum laboriosam ut minima!</p>
             </div>
@@ -77,19 +129,21 @@
           </div>
         </div>
         <div class=' col s10 offset-s1 l4'>
-          <div class="card ayellow">
-            <div class="card-image">
-              <img src="background3.jpg" alt="" style='height: 25%;'>
+          <a href="http://www.nuansacp.com" class='white-text'>
+            <div class="card ayellow">
+              <div class="card-image">
+                <img src="background3.jpg" alt="" style='height: 25%;'>
+              </div>
+              <div class="card-content">
+                <span class="card-title">NUANSA</span>
+                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              </div>
+              <div class="card-action">
+                <a href="" class='white-text'>More details</a>
+                <a href="" class='white-text'>Support us!</a>
+              </div>
             </div>
-            <div class="card-content">
-              <span class="card-title">MKP</span>
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-            </div>
-            <div class="card-action">
-              <a href="" class='white-text'>More details</a>
-              <a href="" class='white-text'>Support us!</a>
-            </div>
-          </div>
+          </a>
         </div>
           
         <!-- <div class="col s12 m4">
@@ -423,7 +477,8 @@
         </div>
       </div>
     </section>
-  
+
+  <!--
   <div class="section grey lighten-3" >
     <div class="row container">
       <div class="col s6 l6" style='padding-left: 0vw; padding-right: 2vw'>
@@ -456,6 +511,7 @@
       </div>
     </div>
   </div>
+--> 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
