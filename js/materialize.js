@@ -6198,7 +6198,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             anim({
               targets: [document.documentElement, document.body],
               scrollTop: offset - scrollspy.options.scrollOffset,
-              duration: 2000,
+              duration: 1000,
               easing: 'easeOutCubic'
             });
             break;
