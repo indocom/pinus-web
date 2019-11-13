@@ -193,23 +193,6 @@ footer.page-footer {
   overflow: hidden;
 }
 
-.team:before{
-  content: '';
-  background-color: #9c9c9c;
-  bottom: -100%;
-  z-index: 1;
-  transition: .7s;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  mix-blend-mode: soft-light;
-}
-
-.team:hover:before{
-  bottom: 0;
-}
-
 .team img{
   width: 100%;
   transition: 0.7s;
@@ -285,4 +268,18 @@ footer.page-footer {
 
 #social btn:hover{
   background: #1F2E6E;
+}
+ 
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+nav ul a{
+  transition: all 0.3s ease;
+}
+
+nav ul a:hover, nav ul a:focus{
+  opacity: 0.8;
 }
