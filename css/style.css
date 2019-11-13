@@ -71,6 +71,22 @@ footer.page-footer {
   color: #1F2E6E;
 }
 
+/* sticky nav */
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+nav ul a{
+  transition: all 0.3s ease;
+}
+
+nav ul a:hover, nav ul a:focus{
+  opacity: 0.8;
+}
+
 /* landing section */
 
 #landing{
@@ -93,7 +109,7 @@ footer.page-footer {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.25;
+  opacity: 0.2;
 }
 
 #landing .inner {
@@ -104,7 +120,7 @@ footer.page-footer {
 #landing .inner h1{
   font-size: 550%;
   color: white;
-  text-shadow: 3px 3px #EFB61E;
+  text-shadow: 2px 2px 5px #EFB61E;
 }
 
 #landing .inner .button{
@@ -124,12 +140,36 @@ footer.page-footer {
 
 #landing a i{
   position: absolute;
+  display: block;
   margin: 0;
   padding: 0;
   color: white;
-  bottom: 60px;
-  left: calc(50% - 27px);
-  font-size: 650%;
+  bottom: 100px;
+  left: calc(50% - 15px);
+  font-size: 350%;
+  animation: pinus-down-and-fade 3s infinite linear;
+}
+
+@keyframes pinus-down-and-fade{
+  0% {
+    bottom: 120px;
+    opacity: 0.2;
+  }
+
+  15% {
+    bottom: 110px;
+    opacity: 0.9;
+  }
+
+  85% {
+    bottom: 75px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 75px;
+    opacity: 0;
+  }
 }
 
 
@@ -270,16 +310,3 @@ footer.page-footer {
   background: #1F2E6E;
 }
  
-nav{
-  position: sticky;
-  top: 0;
-  z-index: 3;
-}
-
-nav ul a{
-  transition: all 0.3s ease;
-}
-
-nav ul a:hover, nav ul a:focus{
-  opacity: 0.8;
-}
