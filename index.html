@@ -13,7 +13,36 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-
+  <!--POPI Read More-->
+  <div id="POPI" class="modal">
+    <div class="modal-content">
+      <h4>Pekan Olahraga Pelajar Indonesia (POPI)</h4>
+      <p>Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity event between Indonesian students’ association from different universities and Junior Colleges around Singapore. The proceeds from the event partly goes to the Misi Kami Peduli (Mission: We Care) team, which organises an Overseas Community Involvement Programme in Indonesia.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Okay</a>
+    </div>
+  </div>
+  <!--NUANSA Read More-->
+  <div id="NUANSA" class="modal">
+    <div class="modal-content">
+      <h4>NUANSA Cultural Productions</h4>
+      <p>NUANSA is a cultural production group based in the National University of Singapore. Through contemporary musical theatre, we attempt to showcase the beauty and diversity of Indonesian cultures. We consistently endeavor to bring the audience through an immersive journey by ensuring the cultural authenticity and artistic integrity of our shows and events. Since our inception in 2008, we have grown from strength to strength: from a small independent Indonesian performance group to one of the biggest student productions in Singapore, featuring a large and diverse community from different nationalities.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Okay</a>
+    </div>
+  </div>
+  <!--MKP Read More-->
+  <div id="MKP" class="modal">
+    <div class="modal-content">
+      <h4>Misi Kami Peduli</h4>
+      <p>Misi Kami Peduli (MKP) or Mission: We Care is a community service project which aims to empower underprivileged Indonesian communities. Misi Kami Peduli's projects focus on three key pillars: Education, Community Empowerment and Technology to alleviate the socio-economic challenges in the local communities.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Okay</a>
+    </div>
+  </div>
   <!--Navbar and Landing Page-->
   <nav class="white z-depth-1" role="navigation">
     <div class="nav-wrapper container" >
@@ -102,7 +131,13 @@
             </div>
             <div class="card-content">
               <span class="card-title">Pekan Olahraga Pelajar Indonesia (POPI)</span>
-              <p class="light">Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity event between Indonesian students’ association from different universities and Junior Colleges around Singapore. The proceeds from the event partly goes to the Misi Kami Peduli (Mission: We Care) team, which organises an Overseas Community Involvement Programme in Indonesia.
+              <p class="light">Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity event between Indonesian ...</p>
+              <p  style="text-align: right" 
+                  onMouseOver="this.style.color='#FFF'"
+                  onMouseOut="this.style.color='#000'" 
+                  data-target="POPI" 
+                  class="modal-trigger">
+                  Read More
               </p>
             </div>
             <div class="card-action">
@@ -117,13 +152,14 @@
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">NUANSA Cultural Productions</span>
-              <p class="light">NUANSA is a cultural production group based in the National University ...</p>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header">Read More</div>
-                  <div class="collapsible-body"><span>NUANSA is a cultural production group based in the National University of Singapore. Through contemporary musical theatre, we attempt to showcase the beauty and diversity of Indonesian cultures. We consistently endeavor to bring the audience through an immersive journey by ensuring the cultural authenticity and artistic integrity of our shows and events. Since our inception in 2008, we have grown from strength to strength: from a small independent Indonesian performance group to one of the biggest student productions in Singapore, featuring a large and diverse community from different nationalities.</span></div>
-                </li>
-              </ul>
+              <p class="light">NUANSA is a cultural production group based in the National University of Singapore. Through contemporary musical theatre ...</p>
+              <p  style="text-align: right"
+                  onMouseOver="this.style.color='#FFF'"
+                  onMouseOut="this.style.color='#000'"
+                  data-target="NUANSA" 
+                  class="modal-trigger">
+                  Read More
+              </p>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">NUANSA</span>
@@ -143,7 +179,14 @@
               </div>
               <div class="card-content">
                 <span class="card-title">Misi Kami Peduli</span>
-                <p class="light">Misi Kami Peduli (MKP) or Mission: We Care is a community service project which aims to empower underprivileged Indonesian communities. Misi Kami Peduli's projects focus on three key pillars: Education, Community Empowerment and Technology to alleviate the socio-economic challenges in the local communities.</p>
+                <p class="light">Misi Kami Peduli (MKP) or Mission: We Care is a community service project which aims to empower underprivileged Indonesian communities. Misi ...</p>
+                <p  style="text-align: right"
+                    onMouseOver="this.style.color='#FFF'"
+                    onMouseOut="this.style.color='#000'"
+                    data-target="MKP" 
+                    class="modal-trigger">
+                    Read More
+                </p>
               </div>
               <div class="card-action">
                 <a href="" class='white-text'>More details</a>
