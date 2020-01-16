@@ -21,30 +21,32 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="#initiatives">Initiatives</a></li>
         <li><a href="#team">Our Team</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#initiatives">Initiatives</a></li>
-        <li><a href="#team">Our Team</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <!-- <li><a href="#contact">Contact Us</a></li> -->
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="#initiatives">Initiatives</a></li>
+    <li><a href="#team">Our Team</a></li>
+    <!-- <li><a href="#contact">Contact Us</a></li> -->
+  </ul>
+
   <header>
-      <div class="" id="landing">
+      <div class="section scrollspy" id="landing">
         <div class='bg'></div>
         <div class="inner container">
           <h1 class=''>Perhimpunan Indonesia NUS</h1>
           <a href="http://pinus-web.herokuapp.com" class="button waves-effect waves-light">Visit Us</a>
-          <a href="#initiatives" class='scrollspy'><i class="fas fa-angle-down"></i></a>
+          <i class="fas fa-angle-down" id="landing_arrow"></i>
+          <a href="#aboutus" id="landing_empty_div"></a>
         </div>     
       </div>
   </header>
   
   <!-- About Us -->
-  <div class="section" id='aboutus'>
+  <div class="section scrollspy" id='aboutus'>
     <div class="container">
       <div class="row">
           <h4 class='center'>About PINUS</h4>
@@ -496,7 +498,7 @@
         </div>
         
         <div class="col s2">
-          <h6><a href="#" class='white-text'><i class="fas fa-arrow-up" style='padding-right: 10px;'></i>Top</a></h6>
+          <h6><a href="#landing" class='white-text'><i class="fas fa-arrow-up" style='padding-right: 10px;'></i>Top</a></h6>
         </div>
       </div>
     </div>
