@@ -213,14 +213,13 @@ nav ul a:focus {
 
 /* Meet our team section */
 .card-image img {
-  height: 350px;
+  height: 40vh;
 }
 
 .team {
-  margin: 15px 0px;
   position: relative;
+  margin: 15px auto;
   width: 100%;
-  float: left;
   background: #fff;
   box-sizing: border-box;
   overflow: hidden;
@@ -249,16 +248,16 @@ nav ul a:focus {
   bottom: 0px;
 }
 
-.team .details h3 {
+.team .details h4 {
   color: #fff;
   text-align: right;
   text-transform: uppercase;
   text-align: right;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
-.team .details h3 span {
+.team .details h4 span {
   margin: 0;
   padding: 0;
   font-size: 1.1rem;
@@ -308,22 +307,12 @@ nav ul a:focus {
   background: #1f2e6e;
 }
 
-@media only screen and (max-width: 990px) {
-  .row .col.offset-s1 {
-    margin: 0px;
-  }
-
-  .row .col.s10 {
-    width: 100%;
-    margin: 0px;
-  }
-
-  .card-image img {
-    min-height: 275px;
-  }
-
+@media only screen and (max-width: 992px) {
   .card .card-content {
-    padding: 12px;
     border-radius: 0 0 2px 2px;
+  }
+
+  .container{
+    width: 90%;
   }
 }
