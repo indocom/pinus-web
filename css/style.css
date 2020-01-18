@@ -222,10 +222,9 @@ nav ul a:focus {
 }
 
 .team {
-  margin: 0 10px 20px;
+  margin: 15px 0px;
   position: relative;
   width: 100%;
-  min-height: 250px;
   float: left;
   background: #fff;
   box-sizing: border-box;
@@ -312,14 +311,12 @@ nav ul a:focus {
 
 @media only screen and (max-width: 990px) {
   .row .col.offset-s1 {
-    margin-left: 0;
+    margin: 0px;
   }
 
   .row .col.s10 {
     width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    margin: 0px;
   }
 
   .card-image img {
