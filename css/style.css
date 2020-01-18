@@ -129,7 +129,7 @@ nav ul a:hover, nav ul a:focus{
   color: white;
   border: 2px solid white;
   padding : 10px 20px;
-  margin-top: 20px;;
+  margin-top: 20px;
   border-radius: 5px;
 }
 
@@ -138,7 +138,8 @@ nav ul a:hover, nav ul a:focus{
   border: 2px solid #EFB61E;
 }
 
-#landing a i{
+#landing i{
+  cursor: pointer;
   position: absolute;
   display: block;
   margin: 0;
@@ -308,4 +309,26 @@ nav ul a:hover, nav ul a:focus{
 
 #social btn:hover{
   background: #1F2E6E;
+}
+
+@media only screen and (max-width: 990px) { 
+  .row .col.offset-s1 { 
+    margin-left: 0; 
+  } 
+
+  .row .col.s10 { 
+    width: 100%; 
+    margin-left: auto; 
+    left: auto; 
+    right: auto; 
+  } 
+
+  .card-image img { 
+    min-height: 275px; 
+  } 
+  
+  .card .card-content { 
+    padding: 12px; 
+    border-radius: 0 0 2px 2px; 
+  } 
 }
