@@ -213,12 +213,7 @@ nav ul a:focus {
 
 /* Meet our team section */
 .card-image img {
-  min-height: 200px;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  transition: 0.7s;
+  height: 350px;
 }
 
 .team {
@@ -236,7 +231,7 @@ nav ul a:focus {
   transition: 0.7s;
 }
 .team:hover img {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 .team .details {
   position: absolute;
@@ -289,6 +284,10 @@ nav ul a:focus {
   transition: 0.5s;
   transform: rotateY(360deg);
   color: #efb61e;
+}
+
+.tabs{
+  width: 100%;
 }
 
 .tabs .indicator {
