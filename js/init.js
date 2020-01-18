@@ -1,23 +1,24 @@
-(function($){
-  $(function(){
-
-    $('.sidenav').sidenav();
-    $('.material-boxed').materialbox();
-    $('.parallax').parallax();
-    $('.tabs').tabs();
-    $('.datepicker').datepicker({
+(function($) {
+  $(function() {
+    $(".sidenav").sidenav();
+    $(".material-boxed").materialbox();
+    $(".parallax").parallax();
+    $(".tabs").tabs();
+    $(".datepicker").datepicker({
       disableWeekends: true
     });
-    $('.tooltip').tooltip();
-    $('.scrollspy').scrollSpy();
-    $('.carousel').carousel();
-    $(document).ready(function(){
-      $('.collapsible').collapsible();
+    $(".tooltip").tooltip();
+    $(".scrollspy").scrollSpy();
+    $(".carousel").carousel();
+    $(document).ready(function() {
+      $(".collapsible").collapsible();
     });
-    $(document).ready(function(){
-      $('.modal').modal();
+    $(document).ready(function() {
+      $(".modal").modal();
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-document.querySelector('#landing_arrow').addEventListener("click", function(){document.querySelector('#landing_empty_div').click();});
+document.querySelector("#landing_arrow").addEventListener("click", function() {
+  document.querySelector("#landing_empty_div").click();
+});
