@@ -1,267 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>PINUS</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PINUS</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-   <!-- font awesome -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-</head>
-<body>
-  <!--Navbar and Landing Page-->
-  <nav class="white z-depth-1" role="navigation">
-    <div class="nav-wrapper container" >
-      <a id="logo-container" href="#" class="brand-logo"><img src="./assets/logo.png" alt="PINUS Logo" style='height: 50px; margin-top: 5px;'></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#initiatives">Initiatives</a></li>
-        <li><a href="#team">Our Team</a></li>
-        <!-- <li><a href="#contact">Contact Us</a></li> -->
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Navbar and Landing Page-->
+    <nav class="white z-depth-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"
+          ><img
+            src="./assets/logo.png"
+            alt="PINUS Logo"
+            style="height: 50px; margin-top: 5px;"
+        /></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#initiatives">Initiatives</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <!-- <li><a href="#contact">Contact Us</a></li> -->
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+    </nav>
 
-  <ul id="nav-mobile" class="sidenav">
-    <li><a href="#initiatives">Initiatives</a></li>
-    <li><a href="#team">Our Team</a></li>
-    <!-- <li><a href="#contact">Contact Us</a></li> -->
-  </ul>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#initiatives">Initiatives</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <!-- <li><a href="#contact">Contact Us</a></li> -->
+    </ul>
 
-  <header>
+    <header>
       <div class="section scrollspy" id="landing">
-        <div class='bg'></div>
+        <div class="bg"></div>
         <div class="inner container">
-          <h1 class=''>Perhimpunan Indonesia NUS</h1>
-          <a href="http://pinus-web.herokuapp.com" class="button waves-effect waves-light">Visit Us</a>
+          <h1 class="">Perhimpunan Indonesia NUS</h1>
+          <a href="#" class="button waves-effect waves-light">Visit Us</a>
           <i class="fas fa-angle-down" id="landing_arrow"></i>
           <a href="#aboutus" id="landing_empty_div"></a>
-        </div>     
-      </div>
-  </header>
-  
-  <!-- About Us -->
-  <div class="section scrollspy" id='aboutus'>
-    <div class="container">
-      <div class="row">
-          <h4 class='center'>About PINUS</h4>
-          <div style='text-align: justify; padding-top: 2px;'>
-            <p>Perhimpunan Indonesia di NUS (PINUS) started its humble beginnings in 1998, founded by a group of Indonesian students in the National University of Singapore who wanted to create a home away from home. It has grown over time, forming an extensive community of 300 current members and over 1000 alumni.</p>
-            <p>Along with the growth in numbers, PINUS too has evolved in terms of its organisational structure and programmes. Our programmes now not only serve our internal members but also aim to give back to different communities in Indonesia. By doing that, we also help our members in both their personal and professional development.</p>
-          </div>
-          
-      </div>
-      <div class="row">
-        <div class="col l2" >
-          <h4 class='center' id='vision' style='color:#1F2E6E'>VISION</h4>
-        </div>
-        <div class="col l10 content">
-          <p>Menjadi organisasi yang bertujuan untuk menciptakan suasana kekeluargaan dan semangat gotong royong, serta menyediakan wadah untuk mengembangkan potensi mahasiswa Indonesia di NUS, sehingga dapat berguna bagi Indonesia dan Singapura.</p>
         </div>
       </div>
-      <div class="row" id='mission' >
-        <div class="col l2">
-          <h4 class='center' style='color:#1F2E6E'>MISSION</h4>
-        </div>
-        <div class="col l10 content">
-          <ol>
-            <li>Menjadi wadah bagi mahasiswa Indonesia di NUS untuk menjalin persahabatan dan mempererat hubungan dengan satu sama lain</li>
-            <li>Menjadi pusat jaringan mahasiswa untuk membantu para anggotanya dalam beradaptasi dengan lingkungan NUS dan Singapura</li>
-            <li>Menjadi wadah bagi mahasiswa Indonesia di NUS untuk mengembangkan talenta dan membina jiwa kepemimpinan</li>
-            <li>Mengadakan kegiatan sosial, budaya dan pendidikan yang diperuntukkan bagi mahasiswa Indonesia dan/atau non-Indonesia tanpa adanya muatan politik, suku, agama, ras dan antar-golongan</li>
-            <li>Menjadi duta dan perwakilan mahasiswa Indonesia di NUS dan Singapura</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-  </div>
+    </header>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <!-- About Us -->
+    <div class="section scrollspy" id="aboutus">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
+        <div class="row">
+          <h4 class="center">About PINUS</h4>
+          <div style="text-align: justify; padding-top: 2px;">
+            <p>
+              Perhimpunan Indonesia di NUS (PINUS) started its humble beginnings
+              in 1998, founded by a group of Indonesian students in the National
+              University of Singapore who wanted to create a home away from
+              home. It has grown over time, forming an extensive community of
+              300 current members and over 1000 alumni.
+            </p>
+            <p>
+              Along with the growth in numbers, PINUS too has evolved in terms
+              of its organisational structure and programmes. Our programmes now
+              not only serve our internal members but also aim to give back to
+              different communities in Indonesia. By doing that, we also help
+              our members in both their personal and professional development.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l2">
+            <h4 class="center" id="vision" style="color:#1F2E6E">VISION</h4>
+          </div>
+          <div class="col l10 content">
+            <p>
+              Menjadi organisasi yang bertujuan untuk menciptakan suasana
+              kekeluargaan dan semangat gotong royong, serta menyediakan wadah
+              untuk mengembangkan potensi mahasiswa Indonesia di NUS, sehingga
+              dapat berguna bagi Indonesia dan Singapura.
+            </p>
+          </div>
+        </div>
+        <div class="row" id="mission">
+          <div class="col l2">
+            <h4 class="center" style="color:#1F2E6E">MISSION</h4>
+          </div>
+          <div class="col l10 content">
+            <ol>
+              <li>
+                Menjadi wadah bagi mahasiswa Indonesia di NUS untuk menjalin
+                persahabatan dan mempererat hubungan dengan satu sama lain
+              </li>
+              <li>
+                Menjadi pusat jaringan mahasiswa untuk membantu para anggotanya
+                dalam beradaptasi dengan lingkungan NUS dan Singapura
+              </li>
+              <li>
+                Menjadi wadah bagi mahasiswa Indonesia di NUS untuk
+                mengembangkan talenta dan membina jiwa kepemimpinan
+              </li>
+              <li>
+                Mengadakan kegiatan sosial, budaya dan pendidikan yang
+                diperuntukkan bagi mahasiswa Indonesia dan/atau non-Indonesia
+                tanpa adanya muatan politik, suku, agama, ras dan antar-golongan
+              </li>
+              <li>
+                Menjadi duta dan perwakilan mahasiswa Indonesia di NUS dan
+                Singapura
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
 
-  <div class="section">
-    <div class="container scrollspy" id='initiatives'>
-      <h2 class="center">Our Initiatives</h2>
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class=' col s10 offset-s1 l4'>
-          <div class="card ayellow">
-            <div class="card-image">
-              <img src="background1.jpg" alt=""  >
-            </div>
-            <div class="card-content">
-              <span class="card-title">Pekan Olahraga Pelajar Indonesia (POPI)</span>
-              <p class="light">Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity event between Indonesian ...</p>
-              <p  style="text-align: right" 
-                  onMouseOver="this.style.color='#FFF'"
-                  onMouseOut="this.style.color='#000'" 
-                  data-target="POPI" 
-                  class="modal-trigger">
-                  Read More
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="" class='white-text'>Grab your ticket</a>
-            </div>
-            <div class="card-action">
-              <a href="" class='white-text'>Grab your ticket</a>
-            </div>
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
           </div>
         </div>
-        <div class=' col s10 offset-s1 l4'>
-          <div class="card ayellow sticky-action">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img src="background2.jpg" class ='activator' alt=""  >
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">NUANSA Cultural Productions</span>
-              <p class="light">NUANSA is a cultural production group based in the National University of Singapore. Through contemporary musical theatre ...</p>
-              <p  style="text-align: right"
-                  onMouseOver="this.style.color='#FFF'"
-                  onMouseOut="this.style.color='#000'"
-                  data-target="NUANSA" 
-                  class="modal-trigger">
-                  Read More
-              </p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">MKP</span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti iusto sapiente voluptate impedit quos est unde molestiae doloribus tenetur itaque, mollitia aspernatur quibusdam dolores aut, placeat commodi cum quaerat.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, mollitia aut! Ratione blanditiis similique dolorem porro maxime obcaecati, esse tempore minus necessitatibus facilis soluta cumque, nulla laborum laboriosam ut minima!</p>
-            </div>
-            <div class="card-action">
-              <a href="" class='white-text'>Grab your ticket</a>
-            </div>
-          </div>
-        </div>
-        <div class=' col s10 offset-s1 l4'>
-          <a href="https://www.misikamipeduli.org/" class='black-text'>
+      </div>
+      <div class="parallax">
+        <img src="background3.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container scrollspy" id="initiatives">
+        <h2 class="center">Our Initiatives</h2>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class=" col s10 offset-s1 l4">
             <div class="card ayellow">
               <div class="card-image">
-                <img src="background3.jpg" alt="" style='height: 25%;'>
+                <img src="background1.jpg" alt="" />
               </div>
               <div class="card-content">
-                <span class="card-title">Misi Kami Peduli</span>
-                <p class="light">Misi Kami Peduli (MKP) or Mission: We Care is a community service project which aims to empower underprivileged Indonesian communities. Misi ...</p>
-                <p  style="text-align: right"
-                    onMouseOver="this.style.color='#FFF'"
-                    onMouseOut="this.style.color='#000'"
-                    data-target="MKP" 
-                    class="modal-trigger">
-                    Read More
+                <span class="card-title"
+                  >Pekan Olahraga Pelajar Indonesia (POPI)</span
+                >
+                <p class="light">
+                  Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports
+                  charity event between Indonesian ...
+                </p>
+                <p
+                  style="text-align: right"
+                  onMouseOver="this.style.color='#FFF'"
+                  onMouseOut="this.style.color='#000'"
+                  data-target="POPI"
+                  class="modal-trigger"
+                >
+                  Read More
                 </p>
               </div>
               <div class="card-action">
-                <a href="" class='white-text'>More details</a>
+                <a href="" class="white-text">Grab your ticket</a>
               </div>
             </div>
-          </a>
+          </div>
+          <div class=" col s10 offset-s1 l4">
+            <div class="card ayellow sticky-action">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img src="background2.jpg" class="activator" alt="" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >NUANSA Cultural Productions</span
+                >
+                <p class="light">
+                  NUANSA is a cultural production group based in the National
+                  University of Singapore. Through contemporary musical theatre
+                  ...
+                </p>
+                <p
+                  style="text-align: right"
+                  onMouseOver="this.style.color='#FFF'"
+                  onMouseOut="this.style.color='#000'"
+                  data-target="NUANSA"
+                  class="modal-trigger"
+                >
+                  Read More
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">MKP</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae deleniti iusto sapiente voluptate impedit quos est unde
+                  molestiae doloribus tenetur itaque, mollitia aspernatur
+                  quibusdam dolores aut, placeat commodi cum quaerat.
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, mollitia aut! Ratione blanditiis similique dolorem porro
+                  maxime obcaecati, esse tempore minus necessitatibus facilis
+                  soluta cumque, nulla laborum laboriosam ut minima!
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="" class="white-text">Grab your ticket</a>
+              </div>
+            </div>
+          </div>
+          <div class=" col s10 offset-s1 l4">
+            <a href="https://www.misikamipeduli.org/" class="black-text">
+              <div class="card ayellow">
+                <div class="card-image">
+                  <img src="background3.jpg" alt="" style="height: 25%;" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Misi Kami Peduli</span>
+                  <p class="light">
+                    Misi Kami Peduli (MKP) or Mission: We Care is a community
+                    service project which aims to empower underprivileged
+                    Indonesian communities. Misi ...
+                  </p>
+                  <p
+                    style="text-align: right"
+                    onMouseOver="this.style.color='#FFF'"
+                    onMouseOut="this.style.color='#000'"
+                    data-target="MKP"
+                    class="modal-trigger"
+                  >
+                    Read More
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="" class="white-text">More details</a>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- parallax -->
-	<div class="parallax-container">
-    <div class="parallax"><img src="./background1.jpg" class='responsive-img' alt=""></div>
-  </div>
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./background1.jpg" class="responsive-img" alt="" />
+      </div>
+    </div>
 
-  <section class="container scrollspy" id="team">
+    <section class="container scrollspy" id="team">
       <h3 class="indigo-text text-darken-4">Meet Our Team</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
-      <br>
-      <h4 class='center'>Top Four</h4><br>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+        quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic
+        laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+        accusamus. In aliquam inventore totam unde quis, accusantium voluptate
+        quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat
+        atque assumenda dolorum!
+      </p>
+      <br />
+      <h4 class="center">Top Four</h4>
+      <br />
       <div class="col s12">
-          <div class="row">
-            <div class="col s12 m6 l3">
-              <div class="card ayellow team">
-                <div class="card-image">
-                  <img src="stars.jpg" alt="" ''>
-                </div>
-                <div class="details">
-                  <h3>Nadhira Salsabila<br><span>President</span></h3>
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card ayellow team">
+              <div class="card-image">
+                <img src="stars.jpg" alt="" ''>
               </div>
-            </div>
-            <div class="col s12 m6 l3">
-              <div class="card ayellow team">
-                <div class="card-image">
-                  <img src="stars.jpg" alt="" ''>
-                </div>
-                <div class="details">
-                  <h3>Amelinda Gusrianti Harahap<br><span>Vice President</span></h3>
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
+              <div class="details">
+                <h3>Nadhira Salsabila<br /><span>President</span></h3>
+                <ul>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="col s12 m6 l3">
-              <div class="card ayellow team">
-                <div class="card-image">
-                  <img src="stars.jpg" alt="" ''>
-                </div>
-                <div class="details">
-                  <h3>Michael Gunawan<br><span>Finance Director</span></h3>
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m6 l3">
-              <div class="card ayellow team">
-                <div class="card-image">
-                  <img src="stars.jpg" alt="" ''>
-                </div>
-                <div class="details">
-                  <h3>Kezia Putri<br><span>Organizational Affairs Director</span></h3>
-                  <ul>
-                    <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             </div>
           </div>
+          <div class="col s12 m6 l3">
+            <div class="card ayellow team">
+              <div class="card-image">
+                <img src="stars.jpg" alt="" ''>
+              </div>
+              <div class="details">
+                <h3>
+                  Amelinda Gusrianti Harahap<br /><span>Vice President</span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card ayellow team">
+              <div class="card-image">
+                <img src="stars.jpg" alt="" ''>
+              </div>
+              <div class="details">
+                <h3>Michael Gunawan<br /><span>Finance Director</span></h3>
+                <ul>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card ayellow team">
+              <div class="card-image">
+                <img src="stars.jpg" alt="" ''>
+              </div>
+              <div class="details">
+                <h3>
+                  Kezia Putri<br /><span>Organizational Affairs Director</span>
+                </h3>
+                <ul>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <br>
-      <h4 class="center">The Teams</h4><br>
+      <br />
+      <h4 class="center">The Teams</h4>
+      <br />
       <div class="row">
-        <ul class="tabs" id='teams'>
+        <ul class="tabs" id="teams">
           <li class="tab col s3">
             <a href="#welfare" class="indigo-text text-darken-4">Welfare</a>
           </li>
           <li class="tab col s4">
-            <a href="#pna" class="indigo-text text-darken-4">Public and Alumni Relations</a>
+            <a href="#pna" class="indigo-text text-darken-4"
+              >Public and Alumni Relations</a
+            >
           </li>
           <li class="tab col s3">
             <a href="#it" class="indigo-text text-darken-4">IT Development</a>
@@ -271,17 +440,29 @@
           </li>
         </ul>
 
-        <div class="col s12" id='welfare'>
+        <div class="col s12" id="welfare">
           <p class="flow-text indigo-text text-darken-4">Welfare</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
+            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            accusamus. In aliquam inventore totam unde quis, accusantium
+            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
+            dolores repellat atque assumenda dolorum!
+          </p>
           <div class="row">
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
                   <img src="background3.jpg" alt="" ''>
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Noel</span>
                   <p>Seenak Forehead</p>
                 </div>
@@ -292,7 +473,10 @@
                 <div class="card-image">
                   <img src="background3.jpg" alt="" ''>
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Hokiewan</span>
                   <p>Job Title</p>
                 </div>
@@ -301,9 +485,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Jeff Ganteng</span>
                   <p>Job Title</p>
                 </div>
@@ -312,29 +499,45 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Boss Steven</span>
                   <p>Job Title</p>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
 
-        <div class="col s12" id='pna'>
-          <p class="flow-text indigo-text text-darken-4">Public and Alumni Relations</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+        <div class="col s12" id="pna">
+          <p class="flow-text indigo-text text-darken-4">
+            Public and Alumni Relations
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
+            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            accusamus. In aliquam inventore totam unde quis, accusantium
+            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
+            dolores repellat atque assumenda dolorum!
+          </p>
           <div class="row">
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Noel Seenak</span>
                   <p>Forehead</p>
                 </div>
@@ -343,9 +546,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Hokiewan Cantik</span>
                   <p>Job Title</p>
                 </div>
@@ -354,9 +560,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Jeff Ganteng</span>
                   <p>Job Title</p>
                 </div>
@@ -365,9 +574,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Boss Steven</span>
                   <p>Job Title</p>
                 </div>
@@ -376,17 +588,29 @@
           </div>
         </div>
 
-        <div class="col s12" id='it'>
+        <div class="col s12" id="it">
           <p class="flow-text indigo-text text-darken-4">IT Development</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
+            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            accusamus. In aliquam inventore totam unde quis, accusantium
+            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
+            dolores repellat atque assumenda dolorum!
+          </p>
           <div class="row">
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Noel Seenak</span>
                   <p>Forehead</p>
                 </div>
@@ -395,9 +619,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Hokiewan Cantik</span>
                   <p>Job Title</p>
                 </div>
@@ -406,9 +633,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Jeff Ganteng</span>
                   <p>Job Title</p>
                 </div>
@@ -417,9 +647,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Boss Steven</span>
                   <p>Job Title</p>
                 </div>
@@ -428,17 +661,29 @@
           </div>
         </div>
 
-        <div class="col s12" id='pubs'>
+        <div class="col s12" id="pubs">
           <p class="flow-text indigo-text text-darken-4">Publicity</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, accusamus. In aliquam inventore totam unde quis, accusantium voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat atque assumenda dolorum!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
+            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            accusamus. In aliquam inventore totam unde quis, accusantium
+            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
+            dolores repellat atque assumenda dolorum!
+          </p>
           <div class="row">
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Noel Seenak</span>
                   <p>Forehead</p>
                 </div>
@@ -447,9 +692,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Hokiewan Cantik</span>
                   <p>Job Title</p>
                 </div>
@@ -458,9 +706,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Jeff Ganteng</span>
                   <p>Job Title</p>
                 </div>
@@ -469,9 +720,12 @@
             <div class="col s6 l3">
               <div class="card ayellow">
                 <div class="card-image">
-                  <img src="background3.jpg" alt="" >
+                  <img src="background3.jpg" alt="" />
                 </div>
-                <div class="card-content" style='padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%'>
+                <div
+                  class="card-content"
+                  style="padding-left: 10%; padding-top: 7.5%; padding-bottom: 7.5%"
+                >
                   <span class="card-title">Boss Steven</span>
                   <p>Job Title</p>
                 </div>
@@ -482,64 +736,63 @@
       </div>
     </section>
 
-  <footer class="page-footer ablue">
-    <div class="container">
-      <div class="row">
-        <div class="col s5">
-          <h6 style='font-size: large;'>Perhimpunan Indonesia NUS</h6>
-          <ul>
-            <li>National University of Singapore</li>
-            <li>Yusof Ishak House, Level 3</li>
-            <li>31 Lower Kent Ridge Road</li>
-            <li>Singapore 119078</li>
-          </ul>
-        </div>
+    <footer class="page-footer ablue">
+      <div class="container">
+        <div class="row">
+          <div class="col s5">
+            <h6 style="font-size: large;">Perhimpunan Indonesia NUS</h6>
+            <ul>
+              <li>National University of Singapore</li>
+              <li>Yusof Ishak House, Level 3</li>
+              <li>31 Lower Kent Ridge Road</li>
+              <li>Singapore 119078</li>
+            </ul>
+          </div>
 
-        <div class="col s5">
-          <div class="row">
-            <div class="col s6" >
+          <div class="col s5">
+            <div class="row">
+              <div class="col s6">
                 <h6>Contact Us</h6>
-              <ul style='font-size: 105%;'>
-                <li><i class="fas fa-phone"></i>  1234567</li>
-                <li><i class="fas fa-envelope"></i>  pinus@pohon.id</li>
-              </ul>
-            </div>
-            <div class="col s6" >
-              <h6 class="white-text" id='social'>Follow us</h6>
-              <a href="https://www.facebook.com/PerhimpunanIndonesiaNUS/" class="btn-floating btn indigo darken-4">
+                <ul style="font-size: 105%;">
+                  <li><i class="fas fa-phone"></i> 1234567</li>
+                  <li><i class="fas fa-envelope"></i> pinus@pohon.id</li>
+                </ul>
+              </div>
+              <div class="col s6">
+                <h6 class="white-text" id="social">Follow us</h6>
+                <a
+                  href="https://www.facebook.com/PerhimpunanIndonesiaNUS/"
+                  class="btn-floating btn indigo darken-4"
+                >
                   <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://www.instagram.com/pinusonline/" class="btn-floating btn indigo darken-4">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UCfYU_ttUpJWNEKIbiWoQQHQ/" class="btn-floating btn indigo darken-4">
-                <i class="fab fa-youtube"></i>
-              </a>
+                </a>
+                <a
+                  href="https://www.instagram.com/pinusonline/"
+                  class="btn-floating btn indigo darken-4"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCfYU_ttUpJWNEKIbiWoQQHQ/"
+                  class="btn-floating btn indigo darken-4"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        
-        <div class="col s2">
-<<<<<<< HEAD
-          <h6><a href="#landing" class='white-text'><i class="fas fa-arrow-up" style='padding-right: 10px;'></i>Top</a></h6>
-=======
-          <h6><a href="#" class='white-text'><i class="fas fa-arrow-up" style='padding-right: 10px;'></i>Top</a></h6>
->>>>>>> master
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+          Copyright &copy; PINUS 2019. All rights reserved.
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container center">
-      Copyright &copy; PINUS 2019. All rights reserved.
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
   </body>
 </html>
