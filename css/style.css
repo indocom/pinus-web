@@ -310,3 +310,25 @@ nav ul a:hover, nav ul a:focus{
 #social btn:hover{
   background: #1F2E6E;
 }
+
+@media only screen and (max-width: 990px) { 
+  .row .col.offset-s1 { 
+    margin-left: 0; 
+  } 
+
+  .row .col.s10 { 
+    width: 100%; 
+    margin-left: auto; 
+    left: auto; 
+    right: auto; 
+  } 
+
+  .card-image img { 
+    min-height: 275px; 
+  } 
+  
+  .card .card-content { 
+    padding: 12px; 
+    border-radius: 0 0 2px 2px; 
+  } 
+}
