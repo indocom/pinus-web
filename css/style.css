@@ -364,3 +364,205 @@
    height: 200px;
  }
 
+#landing .inner .button {
+  font-size: 175%;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#landing .inner .button:hover {
+  background-color: #efb61e;
+  border: 2px solid #efb61e;
+}
+
+#landing i {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: white;
+  bottom: 100px;
+  left: calc(50% - 15px);
+  font-size: 350%;
+  animation: pinus-down-and-fade 3s infinite linear;
+}
+
+@keyframes pinus-down-and-fade {
+  0% {
+    bottom: 120px;
+    opacity: 0.2;
+  }
+
+  15% {
+    bottom: 110px;
+    opacity: 0.9;
+  }
+
+  85% {
+    bottom: 75px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 75px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #landing .inner h1 {
+    font-size: 400%;
+  }
+  #landing .inner .button {
+    font-size: 175%;
+    padding: 7px 15px;
+  }
+}
+
+/* About us */
+#aboutus {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+#aboutus .content {
+  border-left: 1px solid #9c9c9c;
+  padding-left: 20px;
+}
+
+#aboutus ol {
+  padding-left: 15px;
+}
+#aboutus li {
+  padding: 2.5px;
+  line-height: 1.5em;
+}
+
+@media (max-width: 992px) {
+  #aboutus .content {
+    border-left: 0;
+    padding-left: 10px;
+  }
+}
+
+/* Meet our team section */
+.card-image img {
+  height: 40vh;
+}
+
+.team {
+  position: relative;
+  margin: 15px auto;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.team img {
+  width: 100%;
+  transition: 0.7s;
+}
+.team:hover img {
+  transform: scale(1.05);
+}
+.team .details {
+  position: absolute;
+  bottom: -100%;
+  left: 0px;
+  padding: 0 10px 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  transition: 0.7s;
+  z-index: 2;
+}
+
+.team:hover .details {
+  bottom: 0px;
+}
+
+.team .details h4 {
+  color: #fff;
+  text-align: right;
+  text-transform: uppercase;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.team .details h4 span {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #efb61e;
+  font-weight: 900;
+  position: relative;
+  top: -2px;
+}
+
+.team .details ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+.team .details ul li a {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.team .details ul li a:hover .fab {
+  transition: 0.5s;
+  transform: rotateY(360deg);
+  color: #efb61e;
+}
+
+.tabs{
+  width: 100%;
+}
+
+.tabs .indicator {
+  background-color: #efb61e;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+/*footer */
+#social a i {
+  padding: 20px;
+  color: white;
+}
+
+#social btn:hover {
+  background: #1f2e6e;
+}
+
+@media only screen and (max-width: 992px) {
+  .card .card-content {
+    border-radius: 0 0 2px 2px;
+  }
+
+  .container{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 992px) {
+  .row .col.l3 {
+    width: 50%;
+  }
+
+  .card-image img{
+    height: 30vh;
+  }
+}
