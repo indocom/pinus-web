@@ -30,66 +30,7 @@
     />
   </head>
   <body>
-    <!--POPI Read More-->
-    <div id="POPI" class="modal">
-      <div class="modal-content">
-        <h4>Pekan Olahraga Pelajar Indonesia (POPI)</h4>
-        <p>
-          Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity
-          event between Indonesian students’ association from different
-          universities and Junior Colleges around Singapore. The proceeds from
-          the event partly goes to the Misi Kami Peduli (Mission: We Care) team,
-          which organises an Overseas Community Involvement Programme in
-          Indonesia.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Okay</a
-        >
-      </div>
-    </div>
-    <!--NUANSA Read More-->
-    <div id="NUANSA" class="modal">
-      <div class="modal-content">
-        <h4>NUANSA Cultural Productions</h4>
-        <p>
-          NUANSA is a cultural production group based in the National University
-          of Singapore. Through contemporary musical theatre, we attempt to
-          showcase the beauty and diversity of Indonesian cultures. We
-          consistently endeavor to bring the audience through an immersive
-          journey by ensuring the cultural authenticity and artistic integrity
-          of our shows and events. Since our inception in 2008, we have grown
-          from strength to strength: from a small independent Indonesian
-          performance group to one of the biggest student productions in
-          Singapore, featuring a large and diverse community from different
-          nationalities.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Okay</a
-        >
-      </div>
-    </div>
-    <!--MKP Read More-->
-    <div id="MKP" class="modal">
-      <div class="modal-content">
-        <h4>Misi Kami Peduli</h4>
-        <p>
-          Misi Kami Peduli (MKP) or Mission: We Care is a community service
-          project which aims to empower underprivileged Indonesian communities.
-          Misi Kami Peduli's projects focus on three key pillars: Education,
-          Community Empowerment and Technology to alleviate the socio-economic
-          challenges in the local communities.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Okay</a
-        >
-      </div>
-    </div>
+    <script type="text/javascript"></script>
 
     <!--Navbar and Landing Page-->
     <nav class="white z-depth-1" role="navigation">
@@ -101,9 +42,10 @@
             style="height: 50px; margin-top: 5px;"
         /></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#initiatives">Initiatives</a></li>
+          <li><a href="#externalEvents">External Events</a></li>
+          <li><a href="#internalEvents">Internal Events</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#team">Our Team</a></li>
-          <!-- <li><a href="#contact">Contact Us</a></li> -->
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
@@ -112,9 +54,10 @@
     </nav>
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a href="#initiatives">Initiatives</a></li>
+      <li><a href="#externalEvents">External Events</a></li>
+      <li><a href="#internalEvents">Internal Events</a></li>
+      <li><a href="#publications">Publications</a></li>
       <li><a href="#team">Our Team</a></li>
-      <!-- <li><a href="#contact">Contact Us</a></li> -->
     </ul>
 
     <header>
@@ -128,6 +71,10 @@
         </div>
       </div>
     </header>
+
+    <div id="externalEventsReadMore"></div>
+    <div id="internalEventsReadMore"></div>
+    <div id="publicationsReadMore"></div>
 
     <!-- About Us -->
     <div class="section scrollspy" id="aboutus">
@@ -206,73 +153,61 @@
         </div>
       </div>
       <div class="parallax">
-        <img src="background3.jpg" alt="Unsplashed background img 3" />
+        <img src="assets/background.png" alt="Unsplashed background img 3" />
       </div>
     </div>
 
     <div class="section">
-      <div class="container scrollspy" id="initiatives">
-        <h3 class="center">Our Initiatives</h3>
-        <!--   Icon Section   -->
+      <div class="container scrollspy" id="externalEvents">
+        <h3 class="center">External Events</h3>
         <div class="row">
-          <div class="col s12 offset-s1 m6 l4">
-            <div class="card ayellow">
-              <div class="card-image">
-                <img src="background1.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <span class="card-title">
-                  <a style="color: black" href="https://www.facebook.com/pinusPOPI/"><strong>Pekan Olahraga Pelajar Indonesia (POPI)</strong></a>
-                </span>
-                <p class="light">
-                  Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports
-                  ...
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="" class="white-text modal-trigger" data-target="POPI">Read More</a>
-              </div>
-            </div>
+          <div id="externalEventsSection"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
           </div>
-          <div class=" col s12 offset-s1 m6 l4">
-            <div class="card ayellow">
-              <div class="card-image">
-                <img src="background2.jpg" alt=""/>
-              </div>
-              <div class="card-content">
-                <span class="card-title">
-                  <a style="color: black" href="https://www.nuansacp.com/"><strong>NUANSA Cultural Productions</strong></a>
-                </span>
-                <p class="light">
-                  NUANSA is a cultural production group based in the National
-                  University of Singapore. Through
-                  ...
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="" class="white-text modal-trigger" data-target="NUANSA">Read More</a>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/background.png" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container scrollspy" id="internalEvents">
+        <h3 class="center">Internal Events</h3>
+        <div class="row">
+          <div id="internalEventsSection">
+            Test
           </div>
-          <div class=" col s12 offset-s1 m6 l4">
-            <div class="card ayellow">
-              <div class="card-image">
-                <img src="background3.jpg"/>
-              </div>
-              <div class="card-content">
-                <span class="card-title">
-                  <a style="color: black" href="https://www.misikamipeduli.org/"><strong>Misi Kami Peduli</strong></a>
-                </span>
-                <p class="light">
-                  Misi Kami Peduli (MKP) or Mission: We Care is a community
-                  service project which aims to empower underprivileged Indonesian ...
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="" class="white-text modal-trigger" data-target="MKP">Read More</a>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
           </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/background.png" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container scrollspy" id="publications">
+        <h3 class="center">Publications</h3>
+        <div class="row">
+          <div id="publicationsSection"></div>
         </div>
       </div>
     </div>
@@ -280,7 +215,7 @@
     <!-- parallax -->
     <div class="parallax-container">
       <div class="parallax">
-        <img src="./background1.jpg" class="responsive-img" alt="" />
+        <img src="assets/background.png" class="responsive-img" alt="" />
       </div>
     </div>
 
@@ -302,138 +237,7 @@
       <br />
       <div class="col s12">
         <div class="row">
-          <div class="col s10 m6 offset-s1 l3">
-            <div class="card ayellow team">
-              <div class="card-image">
-                <img src="stars.jpg" alt="" />
-              </div>
-              <div class="details">
-                <h4>Nadhira Salsabila<br /><span>President</span></h4>
-                <ul>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-instagram" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col s10 m6 offset-s1 l3">
-            <div class="card ayellow team">
-              <div class="card-image">
-                <img src="stars.jpg" alt="" />
-              </div>
-              <div class="details">
-                <h4>
-                  Amelinda Harahap<br /><span>Vice President</span>
-                </h4>
-                <ul>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-instagram" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col s10 m6 offset-s1 l3">
-            <div class="card ayellow team">
-              <div class="card-image">
-                <img src="stars.jpg" alt="" />
-              </div>
-              <div class="details">
-                <h4>Michael Gunawan<br /><span>Finance Director</span></h4>
-                <ul>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-instagram" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col s10 m6 offset-s1 l3">
-            <div class="card ayellow team">
-              <div class="card-image">
-                <img src="background1.jpg" alt="" />
-              </div>
-              <div class="details">
-                <h4>
-                  Kezia Putri<br /><span>Organizational Affairs Director</span>
-                </h4>
-                <ul>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-instagram" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-telegram-plane" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""
-                      ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <div id="topFourSection"></div>
         </div>
       </div>
       <br />
@@ -457,283 +261,8 @@
           </li>
         </ul>
 
-        <div class="col s12" id="welfare">
-          <p class="flow-text indigo-text text-darken-4">Welfare</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
-            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
-            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            accusamus. In aliquam inventore totam unde quis, accusantium
-            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
-            dolores repellat atque assumenda dolorum!
-          </p>
-          <div class="row">
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" ''>
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Noel</span>
-                  <p>Seenak Forehead</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" ''>
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Hokiewan</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Jeff Ganteng</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Boss Steven</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12" id="pna">
-          <p class="flow-text indigo-text text-darken-4">
-            Public and Alumni Relations
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
-            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
-            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            accusamus. In aliquam inventore totam unde quis, accusantium
-            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
-            dolores repellat atque assumenda dolorum!
-          </p>
-          <div class="row">
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Noel Seenak</span>
-                  <p>Forehead</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Hokiewan Cantik</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Jeff Ganteng</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Boss Steven</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12" id="it">
-          <p class="flow-text indigo-text text-darken-4">IT Development</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
-            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
-            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            accusamus. In aliquam inventore totam unde quis, accusantium
-            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
-            dolores repellat atque assumenda dolorum!
-          </p>
-          <div class="row">
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Noel Seenak</span>
-                  <p>Forehead</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Hokiewan Cantik</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Jeff Ganteng</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Boss Steven</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12" id="pubs">
-          <p class="flow-text indigo-text text-darken-4">Publicity</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
-            quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
-            hic laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            accusamus. In aliquam inventore totam unde quis, accusantium
-            voluptate quibusdam neque pariatur? Praesentium eius omnis ipsum
-            dolores repellat atque assumenda dolorum!
-          </p>
-          <div class="row">
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Noel Seenak</span>
-                  <p>Forehead</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Hokiewan Cantik</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Jeff Ganteng</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-            <div class="col s10 offset-s1 l3">
-              <div class="card ayellow">
-                <div class="card-image">
-                  <img src="background3.jpg" alt="" />
-                </div>
-                <div
-                  class="card-content"
-                >
-                  <span class="card-title">Boss Steven</span>
-                  <p>Job Title</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div id="ourDivisionsSection"></div>
+        
       </div>
     </section>
 
@@ -741,7 +270,7 @@
       <div class="container">
         <div class="row">
           <div class="col s10 offset-s1 l4">
-            <h6 style="font-size: large;">Perhimpunan Indonesia NUS</h6>
+            <h6 style="font-size: large;"><strong>Perhimpunan Indonesia NUS</strong></h6>
             <ul>
               <li>National University of Singapore</li>
               <li>Yusof Ishak House, Level 3</li>
@@ -751,14 +280,14 @@
           </div>
 
           <div class="col s10 offset-s1 l4">
-            <h6>Contact Us</h6>
+            <h6><strong>Contact Us</strong></h6>
             <ul style="font-size: 105%;">
-              <li><i class="fas fa-phone"></i> 1234567</li>
-              <li><i class="fas fa-envelope"></i> pinus@pohon.id</li>
+              <li><i class="fas fa-phone"></i> ... </li>
+              <li><i class="fas fa-envelope"></i> ... </li>
             </ul>
           </div>
           <div class="col s10 offset-s1 l4">
-            <h6 class="white-text" id="social">Follow us</h6>
+            <h6 class="white-text" id="social"><strong>Follow us</strong></h6>
             <a
               href="https://www.facebook.com/PerhimpunanIndonesiaNUS/"
               class="btn-floating btn indigo darken-4"
@@ -789,6 +318,13 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+    <script src="js/sections/externalEvents.js"></script>
+    <script src="js/sections/internalEvents.js"></script>
+    <script src="js/sections/publications.js"></script>
+    
+    <script src="js/sections/ourTeam.js"></script>
+    
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
   </body>
