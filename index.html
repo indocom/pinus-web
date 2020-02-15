@@ -34,25 +34,7 @@
     <script type="text/javascript"></script>
 
     <!--Navbar and Landing Page-->
-    <nav class="white z-depth-1" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo"
-          ><img
-            src="./assets/logo.png"
-            alt="PINUS Logo"
-            style="height: 50px; margin-top: 5px;"
-        /></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#externalEvents">External Events</a></li>
-          <li><a href="#internalEvents">Internal Events</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#team">Our Team</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-      </div>
-    </nav>
+
 
     <ul id="nav-mobile" class="sidenav">
       <li><a href="#externalEvents">External Events</a></li>
@@ -63,7 +45,27 @@
 
     <header>
       <div class="section scrollspy" id="landing">
-        <div class="bg"></div>
+        <div class='nav-container container z-depth-1'>
+          <nav role="navigation">
+            <ul class="hide-on-med-and-down">
+              <li><a href="#landing">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#externalEvents">Vision &amp; Mission</a></li>
+              <li><a id="logo-container" href="#">
+                <img
+                  src="./assets/logo.png"
+                  alt="PINUS Logo"
+                  style="height: 50px; margin-top: 5px;"
+                /></a></li>
+              <li><a href="#internalEvents">Internal Events</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#team">Our Team</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+          </nav>
+        </div>
         <div class="inner container">
           <h1 class="">Perhimpunan Indonesia NUS</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam natus reprehenderit atque temporibus? Quae qui sapiente, tenetur harum consectetur aspernatur vero ducimus quas illum expedita, consequatur enim odit minus consequuntur!</p>
