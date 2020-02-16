@@ -61,13 +61,43 @@
     </ul>
 
     <header>
-      <div class="section scrollspy" id="landing">
-        <div class="bg"></div>
-        <div class="inner container">
-          <h1 class="">Perhimpunan Indonesia NUS</h1>
-          <a href="#" class="button waves-effect waves-light">Visit Us</a>
-          <i class="fas fa-angle-down" id="landing_arrow"></i>
-          <a href="#aboutus" id="landing_empty_div"></a>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left">
+          <i class="fas fa-chevron-left" style="font-size: 2rem;"></i>
+        </button>
+
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+            </li>
+            <li class="carousel__track">
+              <img class="carousel__image" src="./assets/background.png"/>
+            </li>
+            <li class="carousel__track">
+              <img class="carousel__image" src="./assets/placeholder.jpg"/>
+            </li>
+          </ul>
+        </div>
+
+        <button class="carousel__button carousel__button--right">
+          <i class="fas fa-chevron-right" style="font-size: 2rem;"></i>
+        </button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+        
+        <div class="section scrollspy" id="landing">
+          <div class="bg"></div>
+          <div class="inner container">
+            <h1 class="">Perhimpunan Indonesia NUS</h1>
+            <a href="#" class="button waves-effect waves-light">Visit Us</a>
+            <i class="fas fa-angle-down" id="landing_arrow"></i>
+            <a href="#aboutus" id="landing_empty_div"></a>
+          </div>
         </div>
       </div>
     </header>
@@ -325,6 +355,7 @@
     
     <script src="js/sections/ourTeam.js"></script>
     
+    <script src="./js/CarouselUtils.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
   </body>
