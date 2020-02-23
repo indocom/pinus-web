@@ -28,30 +28,13 @@
       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
   </head>
   <body>
     <script type="text/javascript"></script>
 
     <!--Navbar and Landing Page-->
-    <nav class="white z-depth-1" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo"
-          ><img
-            src="./assets/logo.png"
-            alt="PINUS Logo"
-            style="height: 50px; margin-top: 5px;"
-        /></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#externalEvents">External Events</a></li>
-          <li><a href="#internalEvents">Internal Events</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#team">Our Team</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-      </div>
-    </nav>
+
 
     <ul id="nav-mobile" class="sidenav">
       <li><a href="#externalEvents">External Events</a></li>
@@ -62,10 +45,34 @@
 
     <header>
       <div class="section scrollspy" id="landing">
-        <div class="bg"></div>
+        <div class='nav-container container z-depth-1'>
+          <nav role="navigation">
+            <ul class="hide-on-med-and-down">
+              <li><a href="#landing">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#externalEvents">Vision &amp; Mission</a></li>
+              <li><a id="logo-container" href="#">
+                <img
+                  src="./assets/logo.png"
+                  alt="PINUS Logo"
+                  style="height: 50px; margin-top: 5px;"
+                /></a></li>
+              <li><a href="#internalEvents">Internal Events</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#team">Our Team</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+          </nav>
+        </div>
         <div class="inner container">
           <h1 class="">Perhimpunan Indonesia NUS</h1>
-          <a href="#" class="button waves-effect waves-light">Visit Us</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam natus reprehenderit atque temporibus? Quae qui sapiente, tenetur harum consectetur aspernatur vero ducimus quas illum expedita, consequatur enim odit minus consequuntur!</p>
+          <div href="#" class="button waves-effect waves-light">
+            <span style="padding-right: 1em;">Visit NUS</span>
+            <span class="landing__logo"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          </div>
           <i class="fas fa-angle-down" id="landing_arrow"></i>
           <a href="#aboutus" id="landing_empty_div"></a>
         </div>
@@ -219,30 +226,32 @@
       </div>
     </div>
 
-    <section class="container scrollspy" id="team">
-      <h3 class="indigo-text text-darken-4">Meet Our Team</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
-        quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic
-        laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-        accusamus. In aliquam inventore totam unde quis, accusantium voluptate
-        quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat
-        atque assumenda dolorum!
-      </p>
-      <br />
-      <h4 class="center">Top Four</h4>
-      <br />
-      <div class="col s12">
-        <div class="row">
-          <div id="topFourSection"></div>
-        </div>
+    <section class="scrollspy" id="team">
+      <div class="section-header">
+        <div class="section-header__decorator"></div>
+        <h3 class="section-header__content">Meet Our Team</h3>
+        <div class="section-header__decorator"></div>
       </div>
-      <br />
+      <div class="container" style="padding: 1.5em 0 2.5em">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
+          quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic
+          laboriosam sapiente, sequi reiciendis quibusdam sed enim porro!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          accusamus. In aliquam inventore totam unde quis, accusantium voluptate
+          quibusdam neque pariatur? Praesentium eius omnis ipsum dolores repellat
+          atque assumenda dolorum!
+        </p>
+      </div>
+      <div class="top-four">
+        <h4 class="top-four__header">Top Four</h4>
+        <div class="container" id="topFourSection" />
+      </div>
+    </section>
+    <section>
       <h4 class="center">The Teams</h4>
-      <br />
       <div class="row">
         <ul class="tabs" id="teams">
           <li class="tab col s3">
@@ -260,10 +269,9 @@
             <a href="#pubs" class="indigo-text text-darken-4">Publicity</a>
           </li>
         </ul>
-
-        <div id="ourDivisionsSection"></div>
-        
       </div>
+    </div>
+    <div id="ourDivisionsSection"></div>
     </section>
 
     <footer class="page-footer ablue">

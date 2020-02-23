@@ -1,0 +1,155 @@
+#landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  top: 0;
+}
+
+.nav-container {
+  margin-top: 0.2vh;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.4);
+  padding : .5em 0;
+  border-radius: 5px;
+  box-shadow: -2px -2px 6px rgba(34, 33, 33, 0.3), 2px 2px 6px rgba(34, 33, 33, 0.3);
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+  box-shadow: 0;
+}
+/* nav {
+  position: sticky;
+  top: 0;
+} */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul a {
+  transition: all 0.3s ease;
+}
+
+nav ul a:hover, nav ul a:focus {
+  background-color: initial;
+  color: #efb61e;
+  transform: translateY(-1px);
+}
+
+#landing .inner {
+  padding: 3em 0 10em;
+  z-index: 2;
+}
+
+#landing .inner h1 {
+  /* font-size: 50px; */
+  color: white;
+}
+
+#landing .inner p {
+  max-width: 60vw;
+  line-height: 1.5em;
+  color: #dedede;
+}
+
+#landing .inner .button {
+  font-size: 175%;
+  text-decoration: none;
+  color: white;
+  background-color: #1f2e6e;
+  border: 0;
+  /* border-left: .3em solid red; */
+  padding: .2em 0 .2em .4em;
+  margin: 1.2em 0 0 .3em;
+  vertical-align: middle;
+  box-shadow: -.3em 0px 0px 0px red;
+}
+
+#landing .inner .button:hover {
+  background-color: #efb61e;
+  border: 0;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  transform: translateX(-.3em);
+}
+
+#landing .inner .button span {
+  vertical-align: middle;
+  padding: .5em;
+}
+
+#landing .inner .button .landing__logo {
+  position: relative;
+  font-size: 150%;
+  text-decoration: none;
+  color: white;
+  background-color: #efb61e;
+  padding: .5em .5em .5em .2em;
+  border-left: .1em solid #efb61e;
+}
+
+#landing .inner .button .landing__logo::before{
+  content:'';
+  width: 0;
+  height: 0;
+  border-top: 3em solid transparent;
+  border-right: 1em solid #efb61e;
+  right:100%;
+  top:0%;
+  position: absolute;
+}
+
+#landing_arrow {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: white;
+  left: calc(50% - 15px);
+  font-size: 350%;
+  animation: pinus-down-and-fade 3s infinite linear;
+}
+
+@keyframes pinus-down-and-fade {
+  0% {
+    bottom: 1.7em;
+    opacity: 0.2;
+  }
+
+  15% {
+    bottom: 1.5em;
+    opacity: 0.9;
+  }
+
+  85% {
+    bottom: .7em;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: .7em;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #landing .inner h1 {
+    font-size: 400%;
+  }
+  #landing .inner .button {
+    font-size: 175%;
+    padding: 0 0 0 .5em;
+  }
+}

@@ -1,427 +1,97 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+@import './landing.css';
+@import './top-four.css';
 
- nav ul a,
- nav .brand-logo {
-   color: #444;
- }
- 
- p {
-   line-height: 2rem;
- }
- 
- .sidenav-trigger {
-   color: #1f2e6e;
- }
- 
- .parallax-container {
-   min-height: 380px;
-   line-height: 0;
-   height: auto;
-   color: rgba(255, 255, 255, 0.9);
- }
- .parallax-container .section {
-   width: 100%;
- }
- 
- @media only screen and (max-width: 992px) {
-   .parallax-container .section {
-     position: absolute;
-     top: 40%;
-   }
-   #landing {
-     top: 10%;
-   }
- }
- 
- @media only screen and (max-width: 600px) {
-   #landing {
-     top: 0;
-   }
- }
- 
- .icon-block {
-   padding: 0 15px;
- }
- .icon-block .material-icons {
-   font-size: inherit;
- }
- 
- footer.page-footer {
-   margin: 0;
- }
- 
- .ablue {
-   background-color: #1f2e6e;
- }
- .ayellow {
-   background-color: #efb61e;
- }
- 
- .ayellow-text {
-   color: #efb61e;
- }
- 
- .ablue-text {
-   color: #1f2e6e;
- }
- 
- /* sticky nav */
- 
- nav {
-   position: sticky;
-   top: 0;
-   z-index: 3;
- }
- 
- nav ul a {
-   transition: all 0.3s ease;
- }
- 
- nav ul a:hover,
- nav ul a:focus {
-   opacity: 0.8;
- }
- 
- /* landing section */
- 
- #landing {
-   position: relative;
-   width: 100%;
-   height: 100vh;
-   margin: auto;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   background: url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
-   background-size: cover;
-   top: 0;
- }
- 
- #landing:after {
-   content: "";
-   background-color: black;
-   z-index: 1;
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   opacity: 0.3;
- }
- 
- #landing .inner {
-   padding-bottom: 56px;
-   z-index: 2;
- }
- 
- #landing .inner h1 {
-   font-size: 550%;
-   color: white;
-   text-shadow: 2px 2px 5px #efb61e;
- }
- 
- #landing .inner .button {
-   font-size: 175%;
-   text-decoration: none;
-   color: white;
-   border: 2px solid white;
-   padding: 10px 20px;
-   margin-top: 20px;
-   border-radius: 5px;
- }
- 
- #landing .inner .button:hover {
-   background-color: #efb61e;
-   border: 2px solid #efb61e;
- }
- 
- #landing i {
-   cursor: pointer;
-   position: absolute;
-   display: block;
-   margin: 0;
-   padding: 0;
-   color: white;
-   bottom: 100px;
-   left: calc(50% - 15px);
-   font-size: 350%;
-   animation: pinus-down-and-fade 3s infinite linear;
- }
- 
- @keyframes pinus-down-and-fade {
-   0% {
-     bottom: 120px;
-     opacity: 0.2;
-   }
- 
-   15% {
-     bottom: 110px;
-     opacity: 0.9;
-   }
- 
-   85% {
-     bottom: 75px;
-     opacity: 0;
-   }
- 
-   100% {
-     bottom: 75px;
-     opacity: 0;
-   }
- }
- 
- @media (max-width: 768px) {
-   #landing .inner h1 {
-     font-size: 400%;
-   }
-   #landing .inner .button {
-     font-size: 175%;
-     padding: 7px 15px;
-   }
- }
- 
- /* About us */
- #aboutus {
-   display: flex;
-   vertical-align: middle;
-   justify-content: center;
- }
- 
- #aboutus .content {
-   border-left: 1px solid #9c9c9c;
-   padding-left: 20px;
- }
- 
- #aboutus ol {
-   padding-left: 15px;
- }
- #aboutus li {
-   padding: 2.5px;
-   line-height: 1.5em;
- }
- 
- @media (max-width: 992px) {
-   #aboutus .content {
-     border-left: 0;
-     padding-left: 10px;
-   }
- }
- 
- /* Meet our team section */
- .card-image img {
-   min-height: 200px;
- }
- 
- .card:hover {
-   transform: scale(1.05);
-   transition: 0.7s;
- }
- 
- .team {
-   margin: 15px 0px;
-   position: relative;
-   width: 100%;
-   float: left;
-   background: #fff;
-   box-sizing: border-box;
-   overflow: hidden;
- }
- 
- .team img {
-   width: 100%;
-   transition: 0.7s;
- }
- .team:hover img {
-   transform: scale(1.15);
- }
- .team .details {
-   position: absolute;
-   bottom: -100%;
-   left: 0px;
-   padding: 0 10px 10px;
-   box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.7);
-   width: 100%;
-   transition: 0.7s;
-   z-index: 2;
- }
- 
- .team:hover .details {
-   bottom: 0px;
- }
- 
- .team .details h3 {
-   color: #fff;
-   text-align: right;
-   text-transform: uppercase;
-   text-align: right;
-   text-transform: uppercase;
-   font-size: 1.5rem;
- }
- 
- .team .details h3 span {
-   margin: 0;
-   padding: 0;
-   font-size: 1.1rem;
-   color: #efb61e;
-   font-weight: 900;
-   position: relative;
-   top: -2px;
- }
- 
- .team .details ul {
-   margin: 0;
-   padding: 0;
-   display: flex;
-   float: right;
- }
- 
- .team .details ul li a {
-   padding: 0 10px;
-   color: #fff;
- }
- 
- .team .details ul li a:hover .fab {
-   transition: 0.5s;
-   transform: rotateY(360deg);
-   color: #efb61e;
- }
- 
- .tabs .indicator {
-   background-color: #efb61e;
- }
- .tabs .tab a:focus,
- .tabs .tab a:focus.active {
-   background: transparent;
- }
- 
- /*footer */
- #social a i {
-   padding: 20px;
-   color: white;
- }
- 
- #social btn:hover {
-   background: #1f2e6e;
- }
+html {
+  font-family: "Lexend Deca", -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+  color: white;
+}
 
- @media only screen and (max-width: 1024px){
-    .row .col.l4 {
-        width: 50%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
-    }
- }
+p {
+  line-height: 1.7rem;
+}
 
- @media only screen and (max-width: 500px){
-  .row .col.s12 {
-      width: 100%;
-      margin-left: auto;
-      left: auto;
-      right: auto;
+
+/* Section header */
+.section-header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+
+.section-header__decorator{
+  border: 10px solid #efb61e;
+  margin: auto 0;
+  flex: 1;
+}
+
+.section-header__content{
+  flex: 50%;
+  text-align: center;
+}
+
+
+.sidenav-trigger {
+  color: #1f2e6e;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #landing {
+    top: 10%;
   }
 }
- @media only screen and (max-width: 990px) {
-   .row .col.offset-s1 {
-     margin: 0px;
-   }
- 
-   .row .col.s10 {
-     width: 100%;
-     margin: 0px;
-   }
- 
-   .card-image img {
-     min-height: 275px;
-   }
- 
-   .card .card-content {
-     padding: 12px;
-     border-radius: 0 0 2px 2px;
-   }
- }
- 
- .card .card-image img {
-   display: block;
-   border-radius: 2px 2px 0 0;
-   position: relative;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
-   width: 100%;
-   height: 300px;
- }
- 
- .card .card-content {
-   padding: 24px;
-   border-radius: 0 0 2px 2px;
-   height: 200px;
- }
 
-#landing .inner .button {
-  font-size: 175%;
-  text-decoration: none;
-  color: white;
-  border: 2px solid white;
-  padding: 10px 20px;
-  margin-top: 20px;
-  border-radius: 5px;
+@media only screen and (max-width: 600px) {
+  #landing {
+    top: 0;
+  }
 }
 
-#landing .inner .button:hover {
-  background-color: #efb61e;
-  border: 2px solid #efb61e;
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }
 
-#landing i {
-  cursor: pointer;
-  position: absolute;
-  display: block;
+footer.page-footer {
   margin: 0;
-  padding: 0;
-  color: white;
-  bottom: 100px;
-  left: calc(50% - 15px);
-  font-size: 350%;
-  animation: pinus-down-and-fade 3s infinite linear;
 }
 
-@keyframes pinus-down-and-fade {
-  0% {
-    bottom: 120px;
-    opacity: 0.2;
-  }
-
-  15% {
-    bottom: 110px;
-    opacity: 0.9;
-  }
-
-  85% {
-    bottom: 75px;
-    opacity: 0;
-  }
-
-  100% {
-    bottom: 75px;
-    opacity: 0;
-  }
+.ablue {
+  background-color: #1f2e6e;
+}
+.ayellow {
+  background-color: #efb61e;
 }
 
-@media (max-width: 768px) {
-  #landing .inner h1 {
-    font-size: 400%;
-  }
-  #landing .inner .button {
-    font-size: 175%;
-    padding: 7px 15px;
-  }
+.ayellow-text {
+  color: #efb61e;
+}
+
+.ablue-text {
+  color: #1f2e6e;
+}
+
+/* sticky nav */
+
+.button {
+  font-family: inherit;
 }
 
 /* About us */
@@ -553,7 +223,7 @@
   }
 
   .container{
-    width: 90%;
+    width: 80%;
   }
 }
 

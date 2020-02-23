@@ -9,7 +9,7 @@ var topFourData = [
     linkedinURL: '#'
   },
   {
-    name: 'Amelinda Gusrianti Harahap',
+    name: 'Amelinda G. Harahap',
     imageURL: 'assets/stars.jpg',
     role: 'Vice President',
     fbURL: '#',
@@ -27,9 +27,9 @@ var topFourData = [
     linkedinURL: '#'
   },
   {
-    name: 'Kezia Putri',
+    name: 'Kezia <br> Putri',
     imageURL: 'assets/stars.jpg',
-    role: 'OA Director',
+    role: 'O.A. Director',
     fbURL: '#',
     instagramURL: '#',
     telegramURL: '#',
@@ -41,40 +41,45 @@ myHtml = ''
 
 for (var i = 0; i < topFourData.length; i++) {
   myHtml += `
-    <div class="col s10 m6 offset-s1 l3">
-      <div class="card ayellow team">
-        <div class="card-image">
-          <img src="` + topFourData[i].imageURL + `" alt="" />
-        </div>
-        <div class="details">
-          <h4>` + topFourData[i].name + `<br /><span>` + topFourData[i].role + `</span></h4>
-          <ul>
-            <li>
-              <a href="` + topFourData[i].fbURL + `"
-                ><i class="fab fa-facebook-f" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="` + topFourData[i].instagramURL + `"
-                ><i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="` + topFourData[i].telegramURL + `"
-                ><i class="fab fa-telegram-plane" aria-hidden="true"></i
-              ></a>
-            </li>
-            <li>
-              <a href="` + topFourData[i].linkedinURL + `"
-                ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
+    <div class="top-four__card">
+      <div class="top-four__image">
+        <img src="` + topFourData[i].imageURL + `" alt="" />
+      </div>
+      <div class="top-four__details">
+        <h5>` + topFourData[i].name + `</h5>
+        <h6>` + topFourData[i].role + `</h6>
+        <ul>
+          <li>
+            <a href="` + topFourData[i].fbURL + `"
+              ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="` + topFourData[i].instagramURL + `"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="` + topFourData[i].telegramURL + `"
+              ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="` + topFourData[i].linkedinURL + `"
+              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </div>
   `
 }
+
+myHtml = `
+    <div class="top-four__container">
+  `  + myHtml + `
+    </div>
+`;
 
 document.getElementById('topFourSection').innerHTML = myHtml
 
