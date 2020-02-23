@@ -350,6 +350,24 @@ var divisionsData = [
 
 myHtml = '';
 
+myHtml += `<div class="teams-overview container">`;
+
+for (var i = 0; i < divisionsData.length; i++) {
+  myHtml += `
+    <div class="teams-overview__container">
+      <div class="teams-overview__card">
+        <div class="teams-overview__content">
+          <img src="../assets/placeholderBg.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nulla?. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, voluptatem.</p>
+          <div class="teams-overview__button">Discover More <i class="fas fa-arrow-alt-circle-right"></i></div>
+        </div>
+      </div>
+    </div>
+  `
+}
+
+myHtml += '</div>';
+
 for (var i = 0; i < divisionsData.length; i++) {
   divInfo = divisionsData[i]
 

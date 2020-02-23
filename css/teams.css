@@ -1,0 +1,50 @@
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 3em 0;
+}
+
+.teams-overview {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.teams-overview__container {
+  flex: 50%; 
+  padding: 0 1em;
+}
+
+.teams-overview__card {
+  text-align: center;
+  padding: 2.5em;
+}
+
+.teams-overview__card:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+}
+
+.teams-overview__content {
+  padding: 1em;
+  border: 2px solid #10bde6;
+}
+
+.teams-overview__card img {
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+  border: 2px solid #10bde6;
+}
+
+.teams-overview__button {
+  background-color: #10bde6;
+  border-radius: 5px;
+  display: inline-block;
+  padding: .5em;
+  word-spacing: .05rem;
+}
