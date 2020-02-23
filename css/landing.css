@@ -147,7 +147,7 @@ nav ul a:hover, nav ul a:focus {
 
 @media (max-width: 768px) {
   #landing .inner h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
   #landing .inner .button {
     font-size: 175%;

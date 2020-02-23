@@ -375,6 +375,8 @@ myHtml += '</div>';
 
 for (var i = 0; i < divisionsData.length; i++) {
   divInfo = divisionsData[i]
+  divBefore = i >= 1 ? divisionsData[i - 1] : null;
+  divAfter = i < divisionsData.length - 1 ? divisionsData[i + 1] : null;
 
   myHtml += `
     <div class="col s12 per-team teams-slides" id="` + divInfo.id + `">
@@ -419,10 +421,21 @@ for (var i = 0; i < divisionsData.length; i++) {
     `
   }
 
-  myHtml += `
-      </div>
-    </div>
-  `
+  myHtml += `</div>`;
+
+  if(divBefore !== null) {    
+    myHtml += `<div class="teams-overview__button"><a href="#` + divBefore.id + `"/><i class="fas fa-arrow-alt-circle-right" style="transform: rotate(180deg)"></i> Previous </a></div>`
+  } else {
+    myHtml += `<div class="teams-overview__button"><a href="#teams-overview"/><i class="fas fa-arrow-alt-circle-right" style="transform: rotate(180deg)"></i> Previous </a></div>`
+  }
+
+  myHtml += `<div class="teams-overview__button"><a href="#teams-overview"/> Home </a></div>`
+
+  if(divAfter !== null) {    
+    myHtml += `<div class="teams-overview__button"><a href="#` + divAfter.id + `"/> Next <i class="fas fa-arrow-alt-circle-right"></i></a></div>`
+  } 
+      
+  myHtml += `</div>`;
 }
 
 myHtml += `

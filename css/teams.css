@@ -12,6 +12,7 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 
+  height: auto;
   padding: 3em 0;
 }
 
@@ -37,6 +38,7 @@
 .teams-overview {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .teams-overview__container {
@@ -46,7 +48,7 @@
 
 .teams-overview__card {
   text-align: center;
-  padding: 2.5em;
+  padding: 5%;
 }
 
 .teams-overview__card:hover {
@@ -76,6 +78,7 @@
   display: inline-block;
   padding: .5em;
   word-spacing: .05rem;
+  margin: 0 .5em;
 }
 
 .teams-overview__button a {
@@ -84,4 +87,10 @@
 
 .per-team {
   padding: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .teams-overview__container{
+    flex: 100%;
+  }
 }
