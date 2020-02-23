@@ -350,16 +350,21 @@ var divisionsData = [
 
 myHtml = '';
 
-myHtml += `<div class="teams-overview container">`;
+myHtml += `    
+  <div class="teams container">
+    <div class="teams-overview teams-slides">
+  `;
 
 for (var i = 0; i < divisionsData.length; i++) {
+  divInfo = divisionsData[i]
+
   myHtml += `
-    <div class="teams-overview__container">
+    <div class="teams-overview__container" id="teams-overview">
       <div class="teams-overview__card">
         <div class="teams-overview__content">
           <img src="../assets/placeholderBg.jpg" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nulla?. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, voluptatem.</p>
-          <div class="teams-overview__button">Discover More <i class="fas fa-arrow-alt-circle-right"></i></div>
+          <p>` + divInfo.id + `</p>
+          <div class="teams-overview__button"><a href="#` + divInfo.id + `"/> Discover More <i class="fas fa-arrow-alt-circle-right"></i></a></div>
         </div>
       </div>
     </div>
@@ -372,9 +377,8 @@ for (var i = 0; i < divisionsData.length; i++) {
   divInfo = divisionsData[i]
 
   myHtml += `
-    <div class="col s12" id="` + divInfo.id + `">
-      <p class="flow-text indigo-text text-darken-4">` + divInfo.name + `</p>
-      <p>` + divInfo.description + `</p>
+    <div class="col s12 per-team teams-slides" id="` + divInfo.id + `">
+      <h4 class="center">` + divInfo.name + `</h4>
       <div class="row">
   `
 
@@ -421,4 +425,8 @@ for (var i = 0; i < divisionsData.length; i++) {
   `
 }
 
+myHtml += `
+  </div>
+</div>
+`
 document.getElementById('ourDivisionsSection').innerHTML = myHtml
