@@ -68,3 +68,16 @@
     border-bottom: 10px solid;
     padding-bottom: 10px;
 }
+
+.ending {
+    position: relative;
+    width: 100%;
+}
+
+.ending h4 {
+    border-color: white;
+    border: 1px solid;
+    left: 10%;
+    width: 80%;
+    position: relative;
+}
