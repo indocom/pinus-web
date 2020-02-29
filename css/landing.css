@@ -38,6 +38,11 @@ nav ul {
   justify-content: space-evenly;
 }
 
+nav ul li {
+  line-height: initial;
+  margin: auto;
+  text-align: center;
+}
 nav ul a {
   transition: all 0.3s ease;
 }
