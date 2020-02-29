@@ -362,7 +362,7 @@ for (var i = 0; i < divisionsData.length; i++) {
     <div class="teams-overview__container" id="teams-overview">
       <div class="teams-overview__card">
         <div class="teams-overview__content">
-          <img src="../assets/placeholderBg.jpg" alt="">
+          <img src="./assets/placeholderBg.jpg" alt="">
           <p>` + divInfo.id + `</p>
           <div class="teams-overview__button"><a href="#` + divInfo.id + `"/> Discover More <i class="fas fa-arrow-alt-circle-right"></i></a></div>
         </div>
