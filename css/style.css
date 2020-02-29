@@ -16,6 +16,9 @@ p {
   line-height: 1.7rem;
 }
 
+h3 {
+  font-size: 2.44rem;
+}
 
 /* Section header */
 .section-header {
@@ -36,6 +39,7 @@ p {
   flex: 50%;
   text-align: center;
 }
+
 
 .sidenav-trigger {
   color: #1f2e6e;
@@ -139,7 +143,7 @@ footer.page-footer {
 
 /* Meet our team section */
 .card-image img {
-  height: 30vh;
+  height: 40vh;
 }
 
 .team {
@@ -222,6 +226,31 @@ footer.page-footer {
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
   background: transparent;
+}
+
+.container__publications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding-bottom: 3em;
+  padding-top: 3rem;
+}
+
+#publications {
+  width: 100%;
+}
+
+.section-header.publications {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: white;
+  padding-bottom: 3rem;
+  width: 100%;
 }
 
 /*footer */
