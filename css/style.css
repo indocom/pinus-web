@@ -40,6 +40,16 @@ h3 {
   text-align: center;
 }
 
+.sidenav {
+  padding-top: 1em;
+}
+
+.sidenav li{
+  padding-bottom: .5em;
+}
+.sidenav li:first-child{
+  padding-bottom: 1em;
+}
 
 .sidenav-trigger {
   color: #1f2e6e;
