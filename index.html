@@ -21,6 +21,12 @@
       rel="stylesheet"
       media="screen,projection"
     />
+    <link
+      href="css/carousel.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -230,11 +236,45 @@
     </div>
 
     <div class="section">
-      <div class="container scrollspy" id="publications">
-        <h3 class="center">Publications</h3>
-        <div class="row">
-          <div id="publicationsSection"></div>
+      <div class="container__publications">
+        <div class="section-header publications">
+          <div class="section-header__decorator"></div>
+          <h3 class="section-header__content">Publications</h3>
+          <div class="section-header__decorator"></div>
         </div>
+      
+        <div class="container scrollspy" id="publications">
+          <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+              <i class="fas fa-chevron-left" style="font: 2rem" ></i>
+            </button>
+      
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+              </ul>
+            </div>
+      
+            <button class="carousel__button carousel__button--right">
+              <i class="fas fa-chevron-right" style="fontSize: 2rem"></i>
+            </button>
+      
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -339,5 +379,6 @@
     
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/CarouselUtils.js"></script>
   </body>
 </html>

@@ -228,6 +228,31 @@ footer.page-footer {
   background: transparent;
 }
 
+.container__publications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding-bottom: 3em;
+  padding-top: 3rem;
+}
+
+#publications {
+  width: 100%;
+}
+
+.section-header.publications {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: white;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
 /*footer */
 #social a i {
   padding: 20px;
@@ -257,3 +282,4 @@ footer.page-footer {
     height: 30vh;
   }
 }
+>>>>>>> master
