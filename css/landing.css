@@ -11,6 +11,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
   background-size: cover;
   top: 0;
+  box-sizing: content-box;
 }
 
 .nav-container {
@@ -146,7 +147,7 @@ nav ul a:hover, nav ul a:focus {
 
 @media (max-width: 768px) {
   #landing .inner h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
   #landing .inner .button {
     font-size: 175%;
