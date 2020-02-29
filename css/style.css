@@ -1,5 +1,6 @@
 @import './landing.css';
 @import './top-four.css';
+@import './teams.css';
 
 html {
   font-family: "Lexend Deca", -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -7,13 +8,21 @@ html {
   color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p {
   line-height: 1.7rem;
 }
 
+h3 {
+  font-size: 2.44rem;
+}
 
 /* Section header */
 .section-header {
+  padding: 1.5em 0 .75em;
   display: flex;
   flex-direction: row;
   background-color: black;
@@ -137,6 +146,7 @@ footer.page-footer {
 
 .team img {
   width: 100%;
+  height: 100%;
   transition: 0.7s;
 }
 .team:hover img {
@@ -144,7 +154,7 @@ footer.page-footer {
 }
 .team .details {
   position: absolute;
-  bottom: -100%;
+  bottom: 0px;
   left: 0px;
   padding: 0 10px 10px;
   box-sizing: border-box;
@@ -207,6 +217,31 @@ footer.page-footer {
   background: transparent;
 }
 
+.container__publications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  padding-bottom: 3em;
+  padding-top: 3rem;
+}
+
+#publications {
+  width: 100%;
+}
+
+.section-header.publications {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: white;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
 /*footer */
 #social a i {
   padding: 20px;
@@ -235,29 +270,4 @@ footer.page-footer {
   .card-image img{
     height: 30vh;
   }
-}
-
-.container__publications {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: start;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  padding-bottom: 3em;
-  padding-top: 3rem;
-}
-
-#publications {
-  width: 100%;
-}
-
-.section-header.publications {
-  display: flex;
-  flex-direction: row;
-  background-color: transparent;
-  color: white;
-  padding-bottom: 3rem;
-  width: 100%;
 }
