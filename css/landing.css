@@ -29,13 +29,22 @@ nav {
   color: white;
   box-shadow: 0;
 }
-/* nav {
+
+.sticky-nav {
   position: sticky;
   top: 0;
-} */
+  z-index: 10;
+}
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
+}
+
+nav ul li {
+  line-height: initial;
+  margin: auto;
+  text-align: center;
 }
 
 nav ul a {
@@ -152,5 +161,10 @@ nav ul a:hover, nav ul a:focus {
   #landing .inner .button {
     font-size: 175%;
     padding: 0 0 0 .5em;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 0;
   }
 }

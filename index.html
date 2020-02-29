@@ -48,16 +48,24 @@
     <!--Navbar and Landing Page-->
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a href="#externalEvents">About Us</a></li>
-      <li><a href="#externalEvents">Vision &amp; Mission</a></li>
+      <li><a id="logo-container" href="#landing">
+        <img
+          src="./assets/logo.png"
+          alt="PINUS Logo"
+          style="height: 50px; margin-top: 5px;"
+        /></a></li>
+      <li><a href="#aboutus">About Us</a></li>
+      <li><a href="#vis-mis">Vision &amp; Mission</a></li>
       <li><a href="#externalEvents">External Events</a></li>
       <li><a href="#internalEvents">Internal Events</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#team">Our Team</a></li>
     </ul>
 
+    <div id="sticky-navbar"></div>
+    
     <header>
-      <div class="section scrollspy" id="landing">
+      <section class="scrollspy" id="landing">
         <div class='nav-container container z-depth-1'>
           <nav role="navigation">
             <ul class="hide-on-med-and-down">
@@ -76,9 +84,17 @@
               <li><a href="#publications"> Publications </a></li>
               <li><a href="#team"> Our Team </a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-            </a>
+            <!-- <div style="display: flex;"> -->
+              <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons" style="color: white;">menu</i>
+              </a>
+              <img
+                src="./assets/logo-white.png"
+                class="hide-on-large-only"
+                alt="PINUS Logo"
+                style="height: 50px; margin-top: 5px; position: absolute; left: calc(50% - 80px);"
+              />
+            <!-- </div> -->
           </nav>
         </div>
         <div class="inner container">
@@ -91,7 +107,7 @@
           <i class="fas fa-angle-down" id="landing_arrow"></i>
           <a href="#aboutus" id="landing_empty_div"></a>
         </div>
-      </div>
+      </section>
     </header>
 
     <section class="scrollspy" id="aboutus">
