@@ -29,10 +29,13 @@ nav {
   color: white;
   box-shadow: 0;
 }
-/* nav {
+
+.sticky-nav {
   position: sticky;
   top: 0;
-} */
+  z-index: 10;
+}
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -43,6 +46,7 @@ nav ul li {
   margin: auto;
   text-align: center;
 }
+
 nav ul a {
   transition: all 0.3s ease;
 }
