@@ -2,7 +2,7 @@ var externalEventsData = [
   {
     id: 'popi',
     title: 'Pekan Olahraga Pelajar Indonesia (POPI)',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/popi.jpg',
     link: 'https://www.facebook.com/pinusPOPI/',
     readMore: `
       Pekan Olahraga Pelajar Indonesia (POPI) is an annual sports charity
@@ -19,7 +19,7 @@ var externalEventsData = [
   {
     id: 'nuansacp',
     title: 'NUANSA Cultural Productions',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/nuansa.jpg',
     link: 'https://www.nuansacp.com/',
     readMore: `
       NUANSA is a cultural production group based in the National University
@@ -41,7 +41,7 @@ var externalEventsData = [
   {
     id: 'mkp',
     title: 'Misi Kami Peduli',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/mkp.jpg',
     link: 'https://www.misikamipeduli.org/',
     readMore: `
       Misi Kami Peduli (MKP) or Mission: We Care is a community service
@@ -71,7 +71,7 @@ for (var i = 0; i < externalEventsData.length; ++i) {
         <p>` + externalEventsData[i].readMore + `</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="color: white;"
           >Okay</a
         >
       </div>
@@ -79,18 +79,18 @@ for (var i = 0; i < externalEventsData.length; ++i) {
   `
 
   sectionHTML += `
-    <div class="col s12 offset-s1 m6 l4">
-      <div class="card ayellow">
+    <div class="col s12 m6 l4">
+      <div class="card" style="background: url(assets/images/bg/batik-brown.png);">
         <div class="card-image">
           <img src="` + externalEventsData[i].imageURL + `" alt="" />
         </div>
         <div class="card-content">
-          <span class="card-title">
-            <a style="color: black" href="` + externalEventsData[i].link + `">
+          <span class="card-title" style="min-height: 8vh;>
+            <a style="color: white" href="` + externalEventsData[i].link + `">
               <strong>` + externalEventsData[i].title + `</strong>
             </a>
           </span>
-          <p class="light">` + externalEventsData[i].shortDesc + `</p>
+          <p class="light" style="min-height: 12vh;">` + externalEventsData[i].shortDesc + `</p>
         </div>
         <div class="card-action">
           <a href="" class="white-text modal-trigger" data-target="` + externalEventsData[i].id + `">Read More</a>

@@ -37,7 +37,6 @@ p {
   text-align: center;
 }
 
-
 .sidenav-trigger {
   color: #1f2e6e;
 }
@@ -100,12 +99,23 @@ footer.page-footer {
   font-family: inherit;
 }
 
+/* Modal box */
+
+.modal {
+  background-color: black;
+}
+
+.modal .modal-footer {
+  background-color: black;
+  color: white;
+}
+
 /* About us */
-#aboutus {
+/*#aboutus {
   display: flex;
   vertical-align: middle;
   justify-content: center;
-}
+}*/
 
 #aboutus .content {
   border-left: 1px solid #9c9c9c;
@@ -129,7 +139,7 @@ footer.page-footer {
 
 /* Meet our team section */
 .card-image img {
-  height: 40vh;
+  height: 30vh;
 }
 
 .team {

@@ -2,7 +2,7 @@ var internalEventsData = [
   {
     id: 'pinus-ori',
     title: 'PINUS Orientation',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/pinusori.jpg',
     link: '#',
     readMore: `
       Feeling homesick? Fret not, PINUS Orientation welcomes all Indonesian 
@@ -18,7 +18,7 @@ var internalEventsData = [
   {
     id: 'senior-app-night',
     title: 'Senior Appreciation Night',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/san.jpg',
     link: '#',
     readMore: `
       Senior Appreciation Night (SAN) is an annual dinner & dance event for 
@@ -34,7 +34,7 @@ var internalEventsData = [
   {
     id: 'nusantaraku',
     title: 'Nusantaraku & BBQ',
-    imageURL: 'assets/placeholder.jpg',
+    imageURL: 'assets/images/events/nusantaraku.jpg',
     link: '#',
     readMore: `
       PINUS Nusantaraku & BBQ aims to provide a common space for PINUS freshies 
@@ -63,7 +63,7 @@ for (var i = 0; i < internalEventsData.length; ++i) {
         <p>` + internalEventsData[i].readMore + `</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="color: white;"
           >Okay</a
         >
       </div>
@@ -71,18 +71,18 @@ for (var i = 0; i < internalEventsData.length; ++i) {
   `
 
   sectionHTML += `
-    <div class="col s12 offset-s1 m6 l4">
-      <div class="card ayellow">
+    <div class="col s12 m6 l4">
+      <div class="card" style="background: url(assets/images/bg/batik-red.png);">
         <div class="card-image">
           <img src="` + internalEventsData[i].imageURL + `" alt="" />
         </div>
         <div class="card-content">
-          <span class="card-title">
-            <a style="color: black" href="` + internalEventsData[i].link + `">
+          <span class="card-title" style="min-height: 8vh;">
+            <a style="color: white;" href="` + internalEventsData[i].link + `">
               <strong>` + internalEventsData[i].title + `</strong>
             </a>
           </span>
-          <p class="light">` + internalEventsData[i].shortDesc + `</p>
+          <p class="light" style="min-height: 12vh;">` + internalEventsData[i].shortDesc + `</p>
         </div>
         <div class="card-action">
           <a href="" class="white-text modal-trigger" data-target="` + internalEventsData[i].id + `">Read More</a>
