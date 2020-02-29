@@ -100,7 +100,7 @@ var divisionsData = [
     members: [
       {
         name: 'Aldo',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/comm.jpg',
         role: 'Director',
         fbURL: '#',
         instagramURL: '#',
@@ -350,13 +350,37 @@ var divisionsData = [
 
 myHtml = '';
 
+myHtml += `    
+  <div class="teams container">
+    <div class="teams-overview teams-slides">
+  `;
+
 for (var i = 0; i < divisionsData.length; i++) {
   divInfo = divisionsData[i]
 
   myHtml += `
-    <div class="col s12" id="` + divInfo.id + `">
-      <p class="flow-text indigo-text text-darken-4">` + divInfo.name + `</p>
-      <p>` + divInfo.description + `</p>
+    <div class="teams-overview__container" id="teams-overview">
+      <div class="teams-overview__card">
+        <div class="teams-overview__content">
+          <img src="./assets/placeholderBg.jpg" alt="">
+          <p>` + divInfo.id + `</p>
+          <div class="teams-overview__button"><a href="#` + divInfo.id + `"/> Discover More <i class="fas fa-arrow-alt-circle-right"></i></a></div>
+        </div>
+      </div>
+    </div>
+  `
+}
+
+myHtml += '</div>';
+
+for (var i = 0; i < divisionsData.length; i++) {
+  divInfo = divisionsData[i]
+  divBefore = i >= 1 ? divisionsData[i - 1] : null;
+  divAfter = i < divisionsData.length - 1 ? divisionsData[i + 1] : null;
+
+  myHtml += `
+    <div class="col s12 per-team teams-slides" id="` + divInfo.id + `">
+      <h4 class="center">` + divInfo.name + `</h4>
       <div class="row">
   `
 
@@ -397,10 +421,25 @@ for (var i = 0; i < divisionsData.length; i++) {
     `
   }
 
-  myHtml += `
-      </div>
-    </div>
-  `
+  myHtml += `</div>`;
+
+  if(divBefore !== null) {    
+    myHtml += `<div class="teams-overview__button"><a href="#` + divBefore.id + `"/><i class="fas fa-arrow-alt-circle-right" style="transform: rotate(180deg)"></i> Previous </a></div>`
+  } else {
+    myHtml += `<div class="teams-overview__button"><a href="#teams-overview"/><i class="fas fa-arrow-alt-circle-right" style="transform: rotate(180deg)"></i> Previous </a></div>`
+  }
+
+  myHtml += `<div class="teams-overview__button"><a href="#teams-overview"/> Home </a></div>`
+
+  if(divAfter !== null) {    
+    myHtml += `<div class="teams-overview__button"><a href="#` + divAfter.id + `"/> Next <i class="fas fa-arrow-alt-circle-right"></i></a></div>`
+  } 
+      
+  myHtml += `</div>`;
 }
 
+myHtml += `
+  </div>
+</div>
+`
 document.getElementById('ourDivisionsSection').innerHTML = myHtml

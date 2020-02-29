@@ -22,6 +22,12 @@
       media="screen,projection"
     />
     <link
+      href="css/carousel.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
       href="css/footer.css"
       type="text/css"
       rel="stylesheet"
@@ -41,8 +47,9 @@
 
     <!--Navbar and Landing Page-->
 
-
     <ul id="nav-mobile" class="sidenav">
+      <li><a href="#externalEvents">About Us</a></li>
+      <li><a href="#externalEvents">Vision &amp; Mission</a></li>
       <li><a href="#externalEvents">External Events</a></li>
       <li><a href="#internalEvents">Internal Events</a></li>
       <li><a href="#publications">Publications</a></li>
@@ -54,18 +61,20 @@
         <div class='nav-container container z-depth-1'>
           <nav role="navigation">
             <ul class="hide-on-med-and-down">
-              <li><a href="#landing">Home</a></li>
               <li><a href="#aboutus">About Us</a></li>
-              <li><a href="#externalEvents">Vision &amp; Mission</a></li>
-              <li><a id="logo-container" href="#">
+              <li><a href="#vis-mis">Vision &amp; Mission</a></li>
+              <li><a href="#externalEvents">External Events</a></li>
+
+              <li><a id="logo-container" href="#landing">
                 <img
-                  src="./assets/logo.png"
+                  src="./assets/images/logo.png"
                   alt="PINUS Logo"
                   style="height: 50px; margin-top: 5px;"
                 /></a></li>
-              <li><a href="#internalEvents">Internal Events</a></li>
-              <li><a href="#publications">Publications</a></li>
-              <li><a href="#team">Our Team</a></li>
+
+              <li><a href="#internalEvents"> Internal Events </a></li>
+              <li><a href="#publications"> Publications </a></li>
+              <li><a href="#team"> Our Team </a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger">
               <i class="material-icons">menu</i>
@@ -85,145 +94,164 @@
       </div>
     </header>
 
-    <div id="externalEventsReadMore"></div>
-    <div id="internalEventsReadMore"></div>
-    <div id="publicationsReadMore"></div>
+    <section class="scrollspy" id="aboutus">
+      <div class="section-header">
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+        <h3 class="section-header__content">About Us</h3>
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+      </div>
 
-    <!-- About Us -->
-    <div class="section scrollspy" id="aboutus">
-      <div class="container">
-        <div class="row">
-          <h4 class="center">About PINUS</h4>
-          <div style="text-align: justify; padding-top: 2px; width: 94%; margin: auto">
-            <p>
-              Perhimpunan Indonesia di NUS (PINUS) started its humble beginnings
-              in 1998, founded by a group of Indonesian students in the National
-              University of Singapore who wanted to create a home away from
-              home. It has grown over time, forming an extensive community of
-              300 current members and over 1000 alumni.
-            </p>
-            <p>
-              Along with the growth in numbers, PINUS too has evolved in terms
-              of its organisational structure and programmes. Our programmes now
-              not only serve our internal members but also aim to give back to
-              different communities in Indonesia. By doing that, we also help
-              our members in both their personal and professional development.
-            </p>
+      <div class="row container">
+        <div class="col m12 l12" style="text-align: center;">
+          Perhimpunan Indonesia di NUS (PINUS) started its humble beginnings
+          in 1998, founded by a group of Indonesian students in the National
+          University of Singapore who wanted to create a home away from
+          home. It has grown over time, forming an extensive community of
+          300 current members and over 1000 alumni.
+        
+          Along with the growth in numbers, PINUS too has evolved in terms
+          of its organisational structure and programmes. Our programmes now
+          not only serve our internal members but also aim to give back to
+          different communities in Indonesia. By doing that, we also help
+          our members in both their personal and professional development.
+        </div>
+      </div>
+    </section>
+
+    <section class="scrollspy" id="vis-mis">
+      <div class="row">
+        <div class="col m12 l6">
+          <div class="section-header">
+            <div class="section-header__decorator" style="border-color: #10bde6"></div>
+            <h3 class="section-header__content">Vision</h3>
+          </div>
+          <div class="container" style="text-align: left;">
+            Menjadi organisasi yang bertujuan untuk menciptakan suasana
+            kekeluargaan dan semangat gotong royong, serta menyediakan wadah
+            untuk mengembangkan potensi mahasiswa Indonesia di NUS, sehingga
+            dapat berguna bagi Indonesia dan Singapura.
           </div>
         </div>
-        <div class="row">
-          <div class="col m4 l3">
-            <h4 class="center" id="vision" style="color:#1F2E6E">VISION</h4>
-          </div>
-          <div class="col m8 l9 content">
-            <p>
-              Menjadi organisasi yang bertujuan untuk menciptakan suasana
-              kekeluargaan dan semangat gotong royong, serta menyediakan wadah
-              untuk mengembangkan potensi mahasiswa Indonesia di NUS, sehingga
-              dapat berguna bagi Indonesia dan Singapura.
-            </p>
-          </div>
+
+        <div class="col m12 l6">
         </div>
-        <div class="row" id="mission">
-          <div class="col m4 l3">
-            <h4 class="center" style="color:#1F2E6E">MISSION</h4>
+
+        <div class="col m12 l6">
+        </div>
+        
+        <div class="col m12 l6">
+          <div class="section-header">
+            <h3 class="section-header__content">Mission</h3>
+            <div class="section-header__decorator" style="border-color: #10bde6"></div>
           </div>
-          <div class="col m8 l9 content">
-            <ol>
-              <li>
+          <div class="container" style="text-align: right;">
+            <div class="collection" style="border: none;">
+              <div class="collection-item" style="background-color: black;">
                 Menjadi wadah bagi mahasiswa Indonesia di NUS untuk menjalin
-                persahabatan dan mempererat hubungan dengan satu sama lain
-              </li>
-              <li>
+                persahabatan dan mempererat hubungan dengan satu sama lain.
+              </div>
+              <div class="collection-item" style="background-color: black;">
                 Menjadi pusat jaringan mahasiswa untuk membantu para anggotanya
-                dalam beradaptasi dengan lingkungan NUS dan Singapura
-              </li>
-              <li>
+                dalam beradaptasi dengan lingkungan NUS dan Singapura.
+              </div>
+              <div class="collection-item" style="background-color: black;">
                 Menjadi wadah bagi mahasiswa Indonesia di NUS untuk
-                mengembangkan talenta dan membina jiwa kepemimpinan
-              </li>
-              <li>
+                mengembangkan talenta dan membina jiwa kepemimpinan.
+              </div>
+              <div class="collection-item" style="background-color: black;">
                 Mengadakan kegiatan sosial, budaya dan pendidikan yang
                 diperuntukkan bagi mahasiswa Indonesia dan/atau non-Indonesia
-                tanpa adanya muatan politik, suku, agama, ras dan antar-golongan
-              </li>
-              <li>
+                tanpa adanya muatan politik, suku, agama, ras dan antar-golongan.
+              </div>
+              <div class="collection-item" style="background-color: black;">
                 Menjadi duta dan perwakilan mahasiswa Indonesia di NUS dan
-                Singapura
-              </li>
-            </ol>
+                Singapura.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 light"></h5>
-          </div>
-        </div>
-      </div>
+    <div id="externalEventsReadMore"></div>
+    <div id="internalEventsReadMore"></div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
       <div class="parallax">
-        <img src="assets/background.png" alt="Unsplashed background img 3" />
+        <img src="assets/background.png" class="responsive-img" alt="" />
       </div>
     </div>
 
-    <div class="section">
-      <div class="container scrollspy" id="externalEvents">
-        <h3 class="center">External Events</h3>
+    <section class="scrollspy" id="externalEvents">
+      <div class="section-header">
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+        <h3 class="section-header__content">External Events</h3>
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+      </div>
+
+      <div class="container">
         <div class="row">
           <div id="externalEventsSection"></div>
         </div>
       </div>
     </div>
 
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 light"></h5>
-          </div>
-        </div>
+    <section class="scrollspy" id="internalEvents">
+      <div class="section-header">
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+        <h3 class="section-header__content">Internal Events</h3>
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
       </div>
-      <div class="parallax">
-        <img src="assets/background.png" alt="Unsplashed background img 3" />
-      </div>
-    </div>
 
-    <div class="section">
-      <div class="container scrollspy" id="internalEvents">
-        <h3 class="center">Internal Events</h3>
+      <div class="container">
         <div class="row">
-          <div id="internalEventsSection">
-            Test
-          </div>
+          <div id="internalEventsSection"></div>
         </div>
       </div>
     </div>
 
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
+    <!-- <section class="scrollspy" id="publications">
+      <div class="container__publications">
+        <div class="section-header publications">
+          <div class="section-header__decorator"></div>
+          <h3 class="section-header__content">Publications</h3>
+          <div class="section-header__decorator"></div>
+        </div>
+      
         <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 light"></h5>
+          <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+              <i class="fas fa-chevron-left" style="font: 2rem" ></i>
+            </button>
+      
+            <div class="carousel__track-container">
+              <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./assets/placeholderBg.jpg"/>
+                </li>
+              </ul>
+            </div>
+      
+            <button class="carousel__button carousel__button--right">
+              <i class="fas fa-chevron-right" style="fontSize: 2rem"></i>
+            </button>
+      
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="parallax">
-        <img src="assets/background.png" alt="Unsplashed background img 3" />
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="container scrollspy" id="publications">
-        <h3 class="center">Publications</h3>
-        <div class="row">
-          <div id="publicationsSection"></div>
-        </div>
-      </div>
-    </div>
+    </section> -->
 
     <!-- parallax -->
     <div class="parallax-container">
@@ -238,7 +266,7 @@
         <h3 class="section-header__content">Meet Our Team</h3>
         <div class="section-header__decorator"></div>
       </div>
-      <div class="container" style="padding: 1.5em 0 2.5em">
+      <div class="container" style="padding: .75em 0 2.5em">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
           quia harum eos voluptatem inventore sint at architecto! Dolor eos ut hic
@@ -257,27 +285,12 @@
       </div>
     </section>
     <section>
-      <h4 class="center">The Teams</h4>
-      <div class="row">
-        <ul class="tabs" id="teams">
-          <li class="tab col s3">
-            <a href="#welfare" class="indigo-text text-darken-4">Welfare</a>
-          </li>
-          <li class="tab col s3">
-            <a href="#pna" class="indigo-text text-darken-4"
-              >Public and Alumni Relations</a
-            >
-          </li>
-          <li class="tab col s3">
-            <a href="#it" class="indigo-text text-darken-4">IT Development</a>
-          </li>
-          <li class="tab col s3">
-            <a href="#pubs" class="indigo-text text-darken-4">Publicity</a>
-          </li>
-        </ul>
+      <div class="section-header">
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
+        <h3 class="section-header__content">Our Team</h3>
+        <div class="section-header__decorator" style="border-color: #10bde6"></div>
       </div>
-    </div>
-    <div id="ourDivisionsSection"></div>
+      <div id="ourDivisionsSection"></div>
     </section>
 
     <!-- <footer class="page-footer ablue">
@@ -408,11 +421,11 @@
     
     <script src="js/sections/externalEvents.js"></script>
     <script src="js/sections/internalEvents.js"></script>
-    <script src="js/sections/publications.js"></script>
     
     <script src="js/sections/ourTeam.js"></script>
     
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <!-- <script src="js/CarouselUtils.js"></script> -->
   </body>
 </html>
