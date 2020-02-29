@@ -77,8 +77,10 @@
   border-radius: 5px;
   display: inline-block;
   padding: .5em;
+  min-width: 8em;
+  line-height: 1.2rem;
   word-spacing: .05rem;
-  margin: 0 .5em;
+  margin: .5em;
 }
 
 .teams-overview__button a {
@@ -87,10 +89,28 @@
 
 .per-team {
   padding: 2em;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
 }
 
 @media only screen and (max-width: 600px) {
   .teams-overview__container{
     flex: 100%;
   }
+
+  .teams-overview__card {
+    padding: 5% 0;
+  }
+
+  .teams-overview__card:hover {
+    background: transparent;
+  }
+
+  .teams-overview__card img {
+    border: none;
+  }
+
+  .teams-overview__content {
+    padding: 0
+  }
+
 }

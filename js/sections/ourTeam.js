@@ -100,7 +100,7 @@ var divisionsData = [
     members: [
       {
         name: 'Aldo',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/comm.jpg',
         role: 'Director',
         fbURL: '#',
         instagramURL: '#',
