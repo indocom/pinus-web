@@ -1,7 +1,7 @@
 var topFourData = [
   {
     name: 'Nadhira Salsabila',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/images/teams/top-four/nadhira.jpg',
     role: 'President',
     fbURL: '#',
     instagramURL: '#',
@@ -10,7 +10,7 @@ var topFourData = [
   },
   {
     name: 'Amelinda G. Harahap',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/images/teams/top-four/amel.jpg',
     role: 'Vice President',
     fbURL: '#',
     instagramURL: '#',
@@ -19,7 +19,7 @@ var topFourData = [
   },
   {
     name: 'Michael Gunawan',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/images/teams/top-four/michael.jpg',
     role: 'Finance Director',
     fbURL: '#',
     instagramURL: '#',
@@ -28,7 +28,7 @@ var topFourData = [
   },
   {
     name: 'Kezia <br> Putri',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/images/teams/top-four/kezia.jpg',
     role: 'O.A. Director',
     fbURL: '#',
     instagramURL: '#',
@@ -87,6 +87,7 @@ var divisionsData = [
   {
     id: 'pna',
     name: 'Public and Alumni Relations',
+    imageURL: 'assets/images/teams/group/pna.jpg',
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
       quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
@@ -166,6 +167,7 @@ var divisionsData = [
   {
     id: 'it',
     name: 'Technology',
+    imageURL: 'assets/images/teams/group/tech.jpg',
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
       quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
@@ -218,6 +220,7 @@ var divisionsData = [
   {
     id: 'pubs',
     name: 'Publicity',
+    imageURL: 'assets/images/teams/group/pubs.jpg',
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
       quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
@@ -261,6 +264,7 @@ var divisionsData = [
   {
     id: 'welfare',
     name: 'Welfare',
+    imageURL: 'assets/images/teams/group/welfare.jpg',
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel
       quia harum eos voluptatem inventore sint at architecto! Dolor eos ut
@@ -362,8 +366,9 @@ for (var i = 0; i < divisionsData.length; i++) {
     <div class="teams-overview__container" id="teams-overview">
       <div class="teams-overview__card">
         <div class="teams-overview__content">
-          <img src="./assets/placeholderBg.jpg" alt="">
-          <p>` + divInfo.id + `</p>
+          <img src="` + divInfo.imageURL + `" alt="">
+          <h5>` + divInfo.name + `</h5>
+          <p>` + divInfo.description + `</p>
           <div class="teams-overview__button"><a href="#` + divInfo.id + `"/> Discover More <i class="fas fa-arrow-alt-circle-right"></i></a></div>
         </div>
       </div>
