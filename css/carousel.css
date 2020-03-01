@@ -41,6 +41,11 @@
     border: 0;
     cursor: pointer;
 }
+
+.carousel__button:focus,
+.carouse__button:active {
+  background-color: transparent;
+}
   
 .carousel__button--left {
     z-index: 1;
