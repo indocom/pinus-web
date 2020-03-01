@@ -231,7 +231,7 @@ var divisionsData = [
     members: [
       {
         name: 'Dipasukha Edbert',
-        imageURL: 'assets/images/teams/pubs/Pubs\ Dipasukha\ Edbert.jpg',
+        imageURL: 'assets/images/teams/pubs/edbert.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -240,7 +240,7 @@ var divisionsData = [
       },
       {
         name: 'Erin May Gunawan',
-        imageURL: 'assets/images/teams/pubs/Pubs\ Erin\ May\ Gunawan.jpg',
+        imageURL: 'assets/images/teams/pubs/erin.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -249,7 +249,7 @@ var divisionsData = [
       },
       {
         name: 'Felix Halim',
-        imageURL: 'assets/images/teams/pubs/Pubs\ Felix\ Halim.jpg',
+        imageURL: 'assets/images/teams/pubs/felix.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -274,7 +274,7 @@ var divisionsData = [
     members: [
       {
         name: 'Hokiewan',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Director\ Hokiewan.jpg',
+        imageURL: 'assets/images/teams/welfare/hokiewan.jpg',
         role: 'Director',
         fbURL: '#',
         instagramURL: '#',
@@ -283,7 +283,7 @@ var divisionsData = [
       },
       {
         name: 'Nathanael Septianto',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Director\ Nathanael\ Septianto.jpg',
+        imageURL: 'assets/images/teams/welfare/noel.jpg',
         role: 'Director',
         fbURL: '#',
         instagramURL: '#',
@@ -292,7 +292,7 @@ var divisionsData = [
       },
       {
         name: 'Agatha Felice',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Agatha\ Felice.jpg',
+        imageURL: 'assets/images/teams/welfare/agatha.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -301,7 +301,7 @@ var divisionsData = [
       },
       {
         name: 'Albert Reinardo',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Albert\ Reinardo.jpg',
+        imageURL: 'assets/images/teams/welfare/albert.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -310,7 +310,7 @@ var divisionsData = [
       },
       {
         name: 'Alicia Rachel',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Alicia\ Rachel.jpg',
+        imageURL: 'assets/images/teams/welfare/alicia.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -319,7 +319,7 @@ var divisionsData = [
       },
       {
         name: 'Alvin Gunawan',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Alvin\ Gunawan.jpg',
+        imageURL: 'assets/images/teams/welfare/alvin.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -328,7 +328,7 @@ var divisionsData = [
       },
       {
         name: 'Christian Drake Martin',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Christian\ Drake\ Martin.jpg',
+        imageURL: 'assets/images/teams/welfare/drake.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -337,7 +337,7 @@ var divisionsData = [
       },
       {
         name: 'Cindy Aurelia Ursia',
-        imageURL: 'assets/images/teams/welfare/Welfare\ Cindy\ Aurelia\ Ursia.jpg',
+        imageURL: 'assets/images/teams/welfare/cindy.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
