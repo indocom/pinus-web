@@ -179,7 +179,7 @@ var divisionsData = [
     members: [
       {
         name: 'Steven Wijaya',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/images/teams/tech/steven.jpg',
         role: 'Director',
         fbURL: '#',
         instagramURL: '#',
@@ -188,7 +188,7 @@ var divisionsData = [
       },
       {
         name: 'Audrey Felicio Anwar',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/images/teams/tech/audrey.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -197,7 +197,7 @@ var divisionsData = [
       },
       {
         name: 'Bennett Clement',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/images/teams/tech/bennett.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
@@ -206,7 +206,7 @@ var divisionsData = [
       },
       {
         name: 'Kevin William',
-        imageURL: 'assets/stars.jpg',
+        imageURL: 'assets/images/teams/tech/kevin.jpg',
         role: 'Member',
         fbURL: '#',
         instagramURL: '#',
