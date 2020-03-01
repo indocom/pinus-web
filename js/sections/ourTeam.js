@@ -1,7 +1,7 @@
 var topFourData = [
   {
     name: 'Nadhira Salsabila',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/comm.png',
     role: 'President',
     fbURL: '#',
     instagramURL: '#',
@@ -10,7 +10,7 @@ var topFourData = [
   },
   {
     name: 'Amelinda G. Harahap',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/comm.png',
     role: 'Vice President',
     fbURL: '#',
     instagramURL: '#',
@@ -19,7 +19,7 @@ var topFourData = [
   },
   {
     name: 'Michael Gunawan',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/comm.png',
     role: 'Finance Director',
     fbURL: '#',
     instagramURL: '#',
@@ -28,7 +28,7 @@ var topFourData = [
   },
   {
     name: 'Kezia <br> Putri',
-    imageURL: 'assets/stars.jpg',
+    imageURL: 'assets/comm.png',
     role: 'O.A. Director',
     fbURL: '#',
     instagramURL: '#',
