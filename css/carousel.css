@@ -1,4 +1,4 @@
-.carousel {
+.carousel__custom {
     position: relative;
     height: 650px;
     width: 100%;
@@ -40,6 +40,11 @@
     background: transparent;
     border: 0;
     cursor: pointer;
+}
+
+.carousel__button:focus,
+.carouse__button:active {
+  background-color: transparent;
 }
   
 .carousel__button--left {

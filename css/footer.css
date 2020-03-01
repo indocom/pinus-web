@@ -9,13 +9,12 @@
   position: relative;
   box-sizing: border-box;
   width: 75%;
-  height: 50vh;
+  height: 40vh;
   top: 0;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
   text-align: start;
   background-size: cover;
 }
@@ -25,7 +24,7 @@
         position: relative;
         box-sizing: border-box;
         width: 75%;
-        height: 160vh;
+        height: 100vh;
         top: 0;
         margin: auto;
         display: flex;
@@ -34,7 +33,7 @@
         align-items: center;
         text-align: start;
         background-size: cover;
-      }
+    }
 }
 
 .footer__container ul {
@@ -58,13 +57,24 @@
     text-align: center;
 }
 
-.footer__container h5 {
+.footer__container h6 {
     border-color: #313132;
     border-bottom: 2px solid;
     padding-bottom: 10px;
+    color: white;
 }
 
-.footer__container h4 {
+.footer__container ul a h6{
+    transition: all 0.3s ease;
+}
+  
+.footer__container ul a:hover h6, .footer__container ul a:focus h6 {
+    background-color: initial;
+    border-color: white;
+    color: #efb61e;
+}
+
+.footer__container h5 {
     border-bottom: 10px solid;
     padding-bottom: 10px;
 }
@@ -72,11 +82,10 @@
 .ending {
     position: relative;
     width: 100%;
+    padding: 20px 20px 20px 20px;
 }
 
-.ending h4 {
-    border-color: white;
-    border: 1px solid;
+.ending h6 {
     left: 10%;
     width: 80%;
     position: relative;
