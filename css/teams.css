@@ -1,7 +1,7 @@
 #ourDivisionsSection {
   text-align: center;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/placeholderBg.jpg) no-repeat 50% 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/images/placeholderBg.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -112,5 +112,4 @@
   .teams-overview__content {
     padding: 0
   }
-
 }

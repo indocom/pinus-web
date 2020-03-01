@@ -72,7 +72,7 @@ for (var i = 0; i < internalEventsData.length; ++i) {
 
   sectionHTML += `
     <div class="col s12 m6 l4">
-      <div class="card" style="background: url(assets/images/bg/batik-red.png);">
+      <div class="card" style="background: url(assets/images/bg/batik-red.jpg);">
         <div class="card-image">
           <img src="` + internalEventsData[i].imageURL + `" alt="" />
         </div>
