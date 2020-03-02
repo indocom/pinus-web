@@ -112,4 +112,8 @@
   .teams-overview__content {
     padding: 0
   }
+  
+  .teams-overview__description {
+    padding: .5em;
+  }
 }
