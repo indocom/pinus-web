@@ -16,19 +16,19 @@
       media="screen,projection"
     />
     <link
+    href="css/carousel.css"
+    type="text/css"
+    rel="stylesheet"
+    media="screen,projection"
+    />
+    <link
+    href="css/footer.css"
+    type="text/css"
+    rel="stylesheet"
+    media="screen,projection"
+    />
+    <link
       href="css/style.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-    <link
-      href="css/carousel.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-    <link
-      href="css/footer.css"
       type="text/css"
       rel="stylesheet"
       media="screen,projection"
@@ -352,119 +352,115 @@
       <div id="ourDivisionsSection"></div>
     </section>
 
-    <div class="footer">
-      <div style="width: 80vw; margin: auto;">
+    <footer class="container">
+      <div class="footer__logo">
         <img
           src="./assets/images/logo.png"
           alt="PINUS Logo"
-          style="height: 100px; margin-top: 5px; margin-bottom: -25px;"
+          style="height: 75px; margin-top: 5px; margin-bottom: -25px; display: inline-block;"
         />
-        <h2>PINUS</h2>
-        <h4>Perhimpunan Indonesia NUS</h4>
+        <h3>PINUS</h3>
+        <h6>Perhimpunan Indonesia NUS</h5>
       </div>
-      <div class="footer__container">
-        <!-- <div class="col s12 m4 l4"> -->
-          <ul>
-            <li>
-              <h6 style="border-color: #ff0000">USEFUL LINKS</h6>
-            </li>
-            <li>
-              <a href="#aboutus">
-                <h6>About Us</h6>
+      <div class="footer__links">
+        <ul class="footer__col">
+          <li style="border-color: #ff0000">
+            <h5>USEFUL LINKS</h5>
+          </li>
+          <li>
+            <a href="#aboutus" style="color: inherit;">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="#vis-mis">
+              Vision & Mission
+            </a>
+          </li>
+          <li>
+            <a href="#externalEvents">
+              External Events
+            </a>
+          </li>
+          <li>
+            <a href="#internalEvents">
+              Internal Events
+            </a>
+          </li>
+          <li>
+            <a href="#publications">
+              Publication
+            </a>
+          </li>
+          <li>
+            <a href="#team">
+              Our Team
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__col">
+          <li style="border-color: #efb61e">
+            <h5>CONTACT US</h5>
+          </li>
+          <li class="footer__col__address">
+            National University of Singapore <br> 
+            Yusof Ishak House, Level 3 <br> 
+            31 Lower Kent Ridge Road <br>
+            Singapore 119078
+          </li>
+          <li>
+            <div>
+              <i class="fas fa-phone"> </i>
+              +65 9160 1877
+            </div>
+          </li>
+          <li>
+            <div>
+              <i class="fas fa-envelope"></i>
+              mail@pi-nus.org
+            </div>
+          </li>
+        </ul>
+        <ul class="footer__col">
+          <li style="border-color: #1f2e6e">
+            <h5>FOLLOW US</h5>
+          </li>
+          <li style="border:none;">
+            <div class="col s10 offset-s1 l4">
+              <a
+                href="https://www.facebook.com/PerhimpunanIndonesiaNUS/"
+                class="btn-floating btn black"
+              >
+                <i class="fab fa-facebook-f"></i>
               </a>
-            </li>
-            <li>
-              <a href="#vis-mis">
-                <h6>Vision & Mission</h6>
+              <a
+                href="https://www.instagram.com/pinusonline/"
+                class="btn-floating btn black"
+              >
+                <i class="fab fa-instagram"></i>
               </a>
-            </li>
-            <li>
-              <a href="#externalEvents">
-                <h6>External Events</h6>
+              <a
+                href="https://www.youtube.com/channel/UCfYU_ttUpJWNEKIbiWoQQHQ/"
+                class="btn-floating btn black"
+              >
+                <i class="fab fa-youtube"></i>
               </a>
-            </li>
-            <li>
-              <a href="#internalEvents">
-                <h6>Internal Events</h6>
-              </a>
-            </li>
-            <li>
-              <a href="#publications">
-                <h6>Publication</h6>
-              </a>
-            </li>
-            <li>
-              <a href="#team">
-                <h6>Our Team</h6>
-              </a>
-            </li>
-          </ul>
-        <!-- </div> -->
-        <!-- <div class="col s12 m4 l4"> -->
-          <ul>
-            <li>
-              <h5 style="border-color: #1f2e6e">CONTACT US</h5>
-            </li>
-            <li>
-              <h6 style="border-bottom: none">
-                National University of Singapore
-              </h6>
-              <h6 style="border-bottom: none">Yusof Ishak House, Level 3</h6>
-              <h6 style="border-bottom: none">31 Lower Kent Ridge Road</h6>
-              <h6>Singapore 119078</h6>
-            </li>
-            <li>
-              <h6>
-                <i class="fas fa-phone"> </i>
-                +65 9160 1877
-              </h6>
-            </li>
-            <li>
-              <h6>
-                <i class="fas fa-envelope"></i>
-                mail@pi-nus.org
-              </h6>
-            </li>
-          </ul>
-        <!-- </div> -->
-        <!-- <div class="col s12 m4 l4"> -->
-          <ul>
-            <li>
-              <h5 style="border-color: #ffd700">FOLLOW US</h5>
-            </li>
-            <li>
-              <div class="col s10 offset-s1 l4">
-                <a
-                  href="https://www.facebook.com/PerhimpunanIndonesiaNUS/"
-                  class="btn-floating btn indigo darken-4"
-                >
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/pinusonline/"
-                  class="btn-floating btn indigo darken-4"
-                >
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.youtube.com/channel/UCfYU_ttUpJWNEKIbiWoQQHQ/"
-                  class="btn-floating btn indigo darken-4"
-                >
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </li>
-          </ul>
-        <!-- </div> -->
+            </div>
+          </li>
+        </ul>
       </div>
-
+      <div class="back-to-top">
+        <a href='#landing'>
+          Back to top &nbsp; <i class="fas fa-chevron-circle-up"></i>
+        </a>
+      </div>
       <div class="ending">
-        <h6>Copyright @2020 PINUS. All rights reserved.</h6>
+        Copyright @2020 PINUS. All rights reserved.
       </div>
-    </div>
+    </footer>
 
     <!--  Scripts-->
-    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
     <script src="js/sections/externalEvents.js"></script>
     <script src="js/sections/internalEvents.js"></script>
