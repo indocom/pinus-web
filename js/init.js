@@ -31,10 +31,12 @@ stickyNav.innerHTML = nav.innerHTML;
 stickyNav.style = "display: none; padding: .7em; background: #222;"
 stickyNav.classList.add('sticky-nav');
 
+console.log(nav.clientHeight);
+
 window.addEventListener('scroll', function() {
   if (window.pageYOffset > stickyPosition) {
-    nav.style.display = 'none';
-    stickyNav.style.display = 'block';
+    nav.style.animation = 'in-and-out .5s infinite';
+    // stickyNav.style.display = 'block';
   } else {
     nav.style.display = 'block';
     stickyNav.style.display = 'none';

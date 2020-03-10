@@ -1,7 +1,7 @@
 #ourDivisionsSection {
   text-align: center;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/images/placeholderBg.jpg) no-repeat 50% 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/images/bg/teamsBg-min.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -93,6 +93,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #ourDivisionsSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/images/bg/teamsMobileBg-min.jpg);
+    background-repeat: repeat-y;
+    background-size: 100vw auto;
+  }
+
   .teams-overview__container{
     flex: 100%;
   }

@@ -64,7 +64,7 @@ for (var i = 0; i < internalEventsData.length; ++i) {
       </div>
       <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="color: white;"
-          >Okay</a
+          >Close</a
         >
       </div>
     </div>
@@ -85,7 +85,7 @@ for (var i = 0; i < internalEventsData.length; ++i) {
           <p class="light" style="min-height: 12vh;">` + internalEventsData[i].shortDesc + `</p>
         </div>
         <div class="card-action">
-          <a href="" class="white-text modal-trigger" data-target="` + internalEventsData[i].id + `">Read More</a>
+          <a class="white-text modal-trigger" href="#` + internalEventsData[i].id + `">Read More</a>
         </div>
       </div>
     </div>

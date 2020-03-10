@@ -8,6 +8,7 @@ const beginningSlide = slides[0];
 const lastSlide = slides[slides.length - 1];
 const beginningDot = dots[0];
 const lastDot = dots[dots.length - 1];
+const TIMER = 10000;
 
 const slideSize = slides[0].getBoundingClientRect();
 const slideWidth = slideSize.width;
@@ -61,7 +62,7 @@ nextButton.addEventListener('click', e => {
   }
   //restart automatic movement
   clearInterval(timer);
-  setTimer(3000);
+  setTimer(TIMER);
 });
 
 //when clickleft, move slides to the left
@@ -84,7 +85,7 @@ prevButton.addEventListener('click', e => {
     updateDots(currentDot, lastDot);
   }
   clearInterval(timer);
-  setTimer(3000);
+  setTimer(TIMER);
 });
 
 //when click small navigator circle, move to that slide
@@ -104,7 +105,7 @@ dotsNav.addEventListener('click', e => {
     updateDots(currentDot, targetDot);
   }
   clearInterval(timer);
-  setTimer(3000);
+  setTimer(TIMER);
 });
 
 //make slide automatic
@@ -131,4 +132,4 @@ const setTimer = n => {
   timer = setInterval(moveToNextSlide, n);
 };
 //initialize automatic movement
-setTimer(3000);
+setTimer(TIMER);
