@@ -21,6 +21,20 @@ h3 {
   font-size: 2.44rem;
 }
 
+.font-size-1 {
+  font-size: 18px;
+}
+
+@media (max-width: 822px) {
+  .font-size-1 {
+    font-size: 14px;
+  }
+}
+
+.pad-box {
+  padding: 10% 0%;
+}
+
 /* Section header */
 .section-header {
   padding: 1.5em 0 .75em;
@@ -136,9 +150,22 @@ h3 {
 #aboutus ol {
   padding-left: 15px;
 }
+
 #aboutus li {
   padding: 2.5px;
   line-height: 1.5em;
+}
+
+#aboutus .photo-bg {
+  margin: 0% 25%;
+  background-color: yellow;
+}
+
+#aboutus .photo {
+  width: 160%;
+  padding: 30% 0;
+  margin: 0 -30%;
+  vertical-align: center;
 }
 
 @media (max-width: 992px) {
@@ -146,6 +173,20 @@ h3 {
     border-left: 0;
     padding-left: 10px;
   }
+}
+
+/* Vision section */
+
+#vision .photo-bg {
+  margin: 0% 25%;
+  background-color: yellow;
+}
+
+#vision .photo {
+  width: 160%;
+  padding: 30% 0;
+  margin: 0 -30%;
+  vertical-align: center;
 }
 
 /* Meet our team section */
