@@ -1,8 +1,9 @@
 .carousel__custom {
   position: relative;
-  height: 650px;
+  height: 1000px;
   width: 100%;
   margin: 0 auto;
+  opacity: 50%;
 }
   
 .carousel__image {
@@ -41,6 +42,8 @@
   background: transparent;
   border: 0;
   cursor: pointer;
+  z-index: 2;
+  opacity: 100%;
 }
 
 .carousel__button:focus,
@@ -49,13 +52,13 @@
 }
   
 .carousel__button--left {
-  z-index: 1;
+  z-index: 2;
   left: 5px;
 }
   
 .carousel__button--right {
   right: 5px;
-  z-index: 1;
+  z-index: 2;
 }
   
 .carousel__button img {
