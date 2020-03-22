@@ -3,7 +3,6 @@
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-  opacity: 50%;
 }
   
 .carousel__image {
@@ -11,12 +10,14 @@
   height: 100%;
   object-fit: cover;
   filter: brightness(75%), saturate(14%);
+  opacity: 50%;
 }
   
 .carousel__track-container {
   height: 100%;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
   
 .carousel__track {
@@ -69,7 +70,8 @@
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  z-index: 1;
+  z-index: 2;
+  position: relative;
   transform: translateY(-100%);
 }
   
@@ -90,4 +92,31 @@
 .is-hidden {
   display: none;
 }
-  
+
+.carousel__card {
+  position: relative;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%, -130%);
+  text-align: center;
+  border: 10px solid white;
+  background: #1f2e6e;
+  z-index: 2;
+  opacity: 75%;
+}
+
+.carousel__card:hover {
+  opacity: 100%;
+}
+
+.humansOfPinus {
+  background: #1f2e6e;
+}
+
+.diaspora {
+  background: #ff0000
+}
+
+.manusia {
+  background: #f8bd1f
+}
